@@ -111,6 +111,23 @@ and `1` stands for „on”. By default, all features are enabled (i.e. set to `
   disable one too much and have no GUI anymore on your device :)
 * `MK_USERBACKUP`/`MK_SYSBACKUP`: create the script to backup user apps+data /
   system app-data
+* `AUTO_BACKUP_SHARED`: shall shared storage be backed up automatically, without
+  you being asked? If set to `0` you will be asked, with `1` the backup will
+  be performed automatically.
+* `SKIP_EXISTING_USERBACKUP`/`SKIP_EXISTING_SYSBACKUP`: if you e.g. had already
+  started a backup, but needed to abort it (might have been needed if `adbd`
+  got stuck, which happens with some devices/ROMs if `adb backup` commands are
+  issued too fast – see `MK_AUTOCONFIRM_DELAY` below for a preventive measure
+  to that), you might wish *Adebar* to skip already succeeded backups (that is,
+  where the backup file already exists and is not empty). Set the corresponding
+  option to `1` for that – or set it to `0` if you don't want this.
+* `RETRY_FAILED_BACKUPS`: when the backup run is completed, *Adebar* can check
+  for „failed backups“ (usually backup files with a size of 41 byte, but also
+  empty ones) and try to repeat the backup of corresponding apps. On some devices,
+  this succeeds in a subsequent run (mostly due to a „buggy `adbd`“ on the device).
+  It will however *not* succeed, regardless how often you try, if the dev decided
+  declaring the app `ALLOW_BACKUP:FALSE`. Set to `1` to be prompted for retries,
+  or to `0` if you don't need/want this.
 * `MK_APPRESTORE_DELAY`: on restore, ADB sometimes simply „aborts“ when a second
   restore command comes in while it's still processing the first – so subsequent
   commands get lost (waiting for the user to accept them on the device which
