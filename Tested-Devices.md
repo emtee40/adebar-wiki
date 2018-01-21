@@ -28,6 +28,7 @@ Sony Xperia Z Ultra (togari) |  5.1.1 | 2015-12 | Cyanogenmod 12.1 (20151204) (c
 Wileyfox Swift          |       5.1.1 | 2016-05 | CyanogenOS 12.1 (Izzy)
 Wileyfox Swift          |       7.1.1 | 2017-05 | WileyfoxOS (n0tnull)
 Xiaomi Mi4C             |       6.0.1 | 2017-01 | OmniROM 6.0.1; Cygwin (JimboJoe)
+Xiaomi Redmi3 Pro       |       5.1.1 | 2018-01 | CM 12.1 (walkjivefly); no AUTO_CONFIRM
 
 
 ### Tablets
