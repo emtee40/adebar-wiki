@@ -34,6 +34,7 @@ Xiaomi Redmi3 Pro       |       5.1.1 | 2018-01 | CM 12.1 (walkjivefly); no AUTO
 ### Tablets
 Device                  | Android<br>version | Date    | Comment
 ----------------------- | --------------: | ------- | ---------------------
+Amazon Kindle Fire HD 8 (7th Gen) | FireOS 5.6.2 | 2018-08 | stock, no root (jreast)
 Cat Stargate 2          |       4.1.1 | 2015-10 | stock ROM (Izzy)
 Cat PC4 (aka Phoenix)   |       4.1.1 |         | stock ROM (Izzy)
 Cat PC4 (aka Phoenix)   |       4.2.x | 2015-10 | stock ROM (Izzy)
