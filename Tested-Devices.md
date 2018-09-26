@@ -9,6 +9,7 @@ below from its original report.
 ### Smartphones
 Device                  | Android<br>version | Date    | Comment
 ----------------------- | --------------: | ------- | ---------------------
+BQ Aquaris X5 Plus      |       7.1.1 | 2018-09 | stock ROM (Izzy); no root = no partitions
 Galaxy Note 2 (GT-N7100)|       4.4.2 | 2015-12 | stock ROM, Windows/Cygwin (Irfy)
 Huawei Nexus 6P (angler)|       6.0.x | 2015-12 | stock, rooted, Windows/Cygwin (Irfy)
 Lenovo A536             |       4.4.2 | 2015-10 | stock ROM, MTK (tukusejssirs)
@@ -16,6 +17,7 @@ LG Optimus 4X HD (P880) |       4.0.3 |         | stock ROM (Izzy)
 LG Optimus 4X HD (P880) |       4.1.2 | 2015-10 | stock ROM (Izzy)
 LG Optimus 4X HD (P880) |       4.4.4 | 2015-12 | CyanogenMod 11 (Izzy)
 LG Optimus 4X HD (P880) |       5.1.1 | 2016-07 | CyanogenMod 12.1 (Izzy)
+LG Optimus 4X HD (P880) |       6.0.1 | 2018-06 | LineageOS 13 (Izzy)
 Moto G 2nd gen          |       5.1.x | 2016-09 | Stock, not rooted; Cygwin (Jason)
 Moto G4                 |       6.0.1 | 2017-01 | Stock; Cygwin (JimboJoe)
 Motorola Milestone 2    |       4.2.x |         | CyanogenMod (Izzy)
