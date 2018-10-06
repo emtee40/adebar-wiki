@@ -139,6 +139,15 @@ and `1` stands for „on”. By default, all features are enabled (i.e. set to `
       before sending the next `adb restore` command.
 * `MK_AUTOCONFIRM_DELAY`: Similarly, if using `AUTO_CONFIRM`, you can specify a
   delay in seconds to give the device time to act. Default is 3.
+* `MK_AUTOCONFIRM_SEQUENCE`: the sequence of [keycodes][2] sent to the device
+  to confirm each app backup. Default is `(22 23)`, which works fine on many
+  devices – but for example not on some Xiaomis, which need `(61 61 61 66)`.
+  Please report back if you found another device specific sequence, so it can
+  be documented here.
+* `MK_AUTOCONFIRM_SEQUENCE_2`: if your device requires a different confirmation
+  sequence on restore (some Xiaomis again with `(61 61 66)`), and only then,
+  set this variable in your device config. Else leave it empty, and
+  `MK_AUTOCONFIRM_SEQUENCE` will be used.
 * `MK_XPRIVACY_EXPORT`: whether to trigger a data export of XPrivacy. Disabled (`0`)
   by default, so Adebar doesn't have to check for its presence unnecessarily.
   Set to `1` to enable it.
@@ -319,3 +328,4 @@ binary here][1] together with instructions on how to install it on your rooted
 device.
 
 [1]: http://android.izzysoft.de/downloads "IzzyOnDroid: Android Downloads"
+[2]: https://gist.github.com/ctrl-freak/9abb5aea0d89d7bd9df6a3d0ac08b73c "List of keycodes"
