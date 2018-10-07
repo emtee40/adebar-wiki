@@ -9,7 +9,8 @@ below from its original report.
 ### Smartphones
 Device                  | Android<br>version | Date    | Comment
 ----------------------- | --------------: | ------- | ---------------------
-BQ Aquaris X5 Plus      |       7.1.1 | 2018-09 | stock ROM (Izzy); no root = no partitions
+BQ Aquaris X5 Plus      |       7.1.1 | 2018-09 | stock ROM (Izzy); no partition info w/o root
+BQ Aquaris X5 Plus      |       7.1.2 | 2018-10 | LineageOS 14.1 (Izzy)
 Galaxy Note 2 (GT-N7100)|       4.4.2 | 2015-12 | stock ROM, Windows/Cygwin (Irfy)
 Huawei Nexus 6P (angler)|       6.0.x | 2015-12 | stock, rooted, Windows/Cygwin (Irfy)
 Lenovo A536             |       4.4.2 | 2015-10 | stock ROM, MTK (tukusejssirs)
@@ -28,8 +29,10 @@ Samsung Galaxy Ace 2    |       4.1.2 | 2015-10 | stock, not rooted (Izzy)
 Samsung Galaxy S7 Edge  |       6.0.1 | 2016-07 | Adebar > 1.6.0 needed (Izzy)
 Sony Xperia Z Ultra (togari) |  5.1.1 | 2015-12 | Cyanogenmod 12.1 (20151204) (chaotix)
 Wileyfox Swift          |       5.1.1 | 2016-05 | CyanogenOS 12.1 (Izzy)
+Wileyfox Swift          |       6.0.1 | 2018-05 | CyanogenOS 13.1 (Izzy)
 Wileyfox Swift          |       7.1.1 | 2017-05 | WileyfoxOS (n0tnull)
 Xiaomi Mi4C             |       6.0.1 | 2017-01 | OmniROM 6.0.1; Cygwin (JimboJoe)
+Xiaomi Mi8              |       8.1.0 | 2018-10 | Xiaomi MIUI 10 (Catfriend1); Git Bash on Win10
 Xiaomi Redmi3 Pro       |       5.1.1 | 2018-01 | CM 12.1 (walkjivefly); no AUTO_CONFIRM
 
 
