@@ -31,6 +31,7 @@ Sony Xperia Z Ultra (togari) |  5.1.1 | 2015-12 | Cyanogenmod 12.1 (20151204) (c
 Wileyfox Swift          |       5.1.1 | 2016-05 | CyanogenOS 12.1 (Izzy)
 Wileyfox Swift          |       6.0.1 | 2018-05 | CyanogenOS 13.1 (Izzy)
 Wileyfox Swift          |       7.1.1 | 2017-05 | WileyfoxOS (n0tnull)
+Wileyfox Swift          |       7.x.x | 2017-11 | LineageOS 14 (cweiske)
 Xiaomi Mi4C             |       6.0.1 | 2017-01 | OmniROM 6.0.1; Cygwin (JimboJoe)
 Xiaomi Mi8              |       8.1.0 | 2018-10 | Xiaomi MIUI 10 (Catfriend1); Git Bash on Win10
 Xiaomi Redmi3 Pro       |       5.1.1 | 2018-01 | CM 12.1 (walkjivefly); no AUTO_CONFIRM
