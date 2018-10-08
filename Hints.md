@@ -99,7 +99,23 @@ Which is why I won't give instructions on how to restore those images. If you're
 knowing what you're doing, you also know how to do it. I take no responsibility
 for any results (but if they're positive, I'm open to donations).
 
-## Device documentation: Names of system apps
+
+## Device specific settings
+### Auto-Confirm KeyCode Sequences
+Many devices support auto-confirmed backups – i.e. you don't have to approve
+each single app at backup/restore. But some devices seem to need specific
+keycode sequences. Some used by me or reported by other users are listed here.
+If your device is not named, try the codes until you find one that works. If
+none worked, but you figured out a new sequence, please report back!
+
+Device                  | MK_AUTOCONFIRM_SEQUENCE | .._SEQUENCE_2 | Comment
+----------------------- | ----------------------: | ------------- | ---------------------
+Default                 | `(22 23)`               |               | works on many devices
+LG H815 (LOS 14.1)      | `(61 61 66)`            |               |
+Xiaomi Mi8              | `(61 61 61 66)`         | `(61 61 66)`  |
+
+
+### Device documentation: Names of system apps
 Depending on the vendor and ROM of your device, it ships with several (hundreds)
 apps pre-installed: there's the stock Android system, and the Cyanogen "stock"
 (CyanogenOS / CyanogenMod). Vendors like LG or Motorola add some of their specific
