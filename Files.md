@@ -41,6 +41,7 @@
     * `deviceInfo.md`: information on the device, e.g. device-features and properties
     * `userApps.md`: List of installed apps, grouped by their source, with some
       details on them (e.g. date of first install / last update, installed version)
+    * `sysApps.md`: Same for system apps
 * configuration files pulled from your device(s) if possible (placed into the
   `conf/` sub-directory)
     * `build.prop`
@@ -119,20 +120,21 @@ alternatives are there to view them in their „formatted way“?
 * [ReText][5] is an easy to use editor and viewer for [Markdown], and even
   understands several flavors. It can be extended with plugins, and is
   available for Linux (officially) and Mac.
-* [ownCloud][6] has an integrated [Markdown] viewer and editor
+* [ownCloud][6] and [Nextcloud][10] have an integrated [Markdown] viewer and editor
 * for Windows, there's [MarkdownPad][7] with a look-and-feel quite similar
   to [ReText][5].
-* For *Firefox* users, there's the [Markdown Viewer][8] addon
+* For *Firefox* users, there are some [Markdown Viewer][8] addons
 * More alternatives can be found in an article titled
   [78 Tools for Writing and Previewing Markdown][9]
 
 [Markdown]: http://en.wikipedia.org/wiki/Markdown "Wikipedia: Markdown"
-[1]: http://daringfireball.net/projects/markdown/
-[2]: http://github.github.com/github-flavored-markdown/
-[3]: http://stackoverflow.com/editing-help
-[4]: http://en.wikipedia.org/wiki/Markdown_Extra "Wikipedia: Markdown Extra"
+[1]: https://daringfireball.net/projects/markdown/
+[2]: https://github.github.com/github-flavored-markdown/
+[3]: https://stackoverflow.com/editing-help
+[4]: https://en.wikipedia.org/wiki/Markdown_Extra "Wikipedia: Markdown Extra"
 [5]: https://sourceforge.net/projects/retext/
-[6]: http://owncloud.org/
-[7]: http://markdownpad.com/
-[8]: https://addons.mozilla.org/de/firefox/addon/markdown-viewer/
-[9]: http://mashable.com/2013/06/24/markdown-tools/
+[6]: https://owncloud.org/
+[7]: https://markdownpad.com/
+[8]: https://addons.mozilla.org/de/firefox/search/?q=markdown
+[9]: https://mashable.com/2013/06/24/markdown-tools/
+[10]: https://nextcloud.com/
