@@ -132,7 +132,7 @@ alternatives are there to view them in their „formatted way“?
 [2]: https://github.github.com/github-flavored-markdown/
 [3]: https://stackoverflow.com/editing-help
 [4]: https://en.wikipedia.org/wiki/Markdown_Extra "Wikipedia: Markdown Extra"
-[5]: https://sourceforge.net/projects/retext/
+[5]: https://github.com/retext-project/retext
 [6]: https://owncloud.org/
 [7]: https://markdownpad.com/
 [8]: https://addons.mozilla.org/de/firefox/search/?q=markdown
