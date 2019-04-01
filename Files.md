@@ -11,8 +11,10 @@
   generated files)
 * `LICENSE`: *Adebar* license details (GPLv2)
 * `README.md`: general information on *Adebar*
+* `tools/abrestore`: shell script to work around `adb restore` issues with some Android 7+ devices
 * `tools/ab2tar`: tiny shell script to convert ADB Backups to `.tar.gz`. Requires
    openssl and zlib.
+* `tools/getapk`: shell script to extract specific|all|user|system apps
 * `tools/getPkgData.php`: a PHP script to parse and analyze the `packages.xml` file.
   This was originally called from `adebar-cli` to create e.g. the `userApps.md`.
   After rewriting that functionality to get rid of the PHP dependency, I've decided
