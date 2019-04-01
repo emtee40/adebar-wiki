@@ -135,5 +135,7 @@ Examples of possibilities are:
   Manager](https://play.google.com/store/apps/details?id=os.tools.scriptmanager)
   or [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
 
+## All my partitions are listed with a size of 0 MiB
+This is the case for non-rooted devices which do not allow to access certain partitioning details without root, as e.g. the [Sony Xperia XZ1 Compact](https://github.com/IzzySoft/Adebar/issues/45) running Android 9. Fear not, nothing broken with your device – it's just that Adebar cannot find out the size. As the remaining information can still be considered useful (so you can see what a partition is used for), it's shown that way.
 
 [1]: http://android.izzysoft.de/downloads "IzzyOnDroid: Android Downloads"
