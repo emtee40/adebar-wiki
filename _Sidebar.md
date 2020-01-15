@@ -12,3 +12,4 @@
     * [[adebar-gui]]
     * [[Hints]]
     * [[Tested Devices]]
+    * [[Tools]]
