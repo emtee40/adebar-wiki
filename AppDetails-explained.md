@@ -7,17 +7,17 @@ app on an *Android Go* device running Android 8.1 (more precisely: a
 [Wiko Sunny 3](https://www.gsmarena.com/wiko_sunny3-9733.php)):
 
 > + [Smart Assist - Clean & Boost & Security](https://www.appbrain.com/app/com.ape.cleanassist)
-    + first installed: 2008-12-31 17:00:00
-    + last updated: 2008-12-31 17:00:00
-    + installed version: 9.0.10.14
-    + IDs:     userId=10108
-    + CodePath: `/system/vital-app/SmartAssist_CA`
-    + App data: `/data/user/0/com.ape.cleanassist`
-    + Primary CPU ABI: `armeabi`
-    + supported screen sizes: [small, medium, large, xlarge, resizeable, anyDensity]
-    + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ]
-    + privateFlags: [ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ]
-    + User 0: ceDataInode=-4294966108 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+>     + first installed: 2008-12-31 17:00:00
+>     + last updated: 2008-12-31 17:00:00
+>     + installed version: 9.0.10.14
+>     + IDs:     userId=10108
+>     + CodePath: `/system/vital-app/SmartAssist_CA`
+>     + App data: `/data/user/0/com.ape.cleanassist`
+>     + Primary CPU ABI: `armeabi`
+>     + supported screen sizes: [small, medium, large, xlarge, resizeable, anyDensity]
+>     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+>     + privateFlags: [ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ]
+>     + User 0: ceDataInode=-4294966108 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
 
 The header should be clear: It's the app name (if available, otherwise the app's
 package name) – if possible linked to a place where it can be obtained from.
@@ -39,7 +39,7 @@ URL you have defined for that source (see `APP_MARKET_URL` in [[Configuration]])
   didn't happen at all.
 * **installed version:** version of the app. More fun with pre-installed apps:
   the last version available on Play Store was 8.0.30.18 here. But we got
-  9.0.10.14 here. No idea where from…
+  9.0.10.14 here. No idea where from.
 * **IDs:** any IDs associated with this app. Here it's *userId* – which is the
   ID used on OS level for access permissions etc. On a shell, if this app is
   running, you should be able to grab its process(es) via the `ps` command.
@@ -65,5 +65,6 @@ URL you have defined for that source (see `APP_MARKET_URL` in [[Configuration]])
 * **mtkFlags:** These are flags specific to MTK devices.
 * **User X:** the status of this app for each user on the device. If you never
   created any user other than the first, only „User 0“ (the „device owner“) will
-  show up here.
+  show up here. In the example we see the app was installed for user0 (`installed=true`)
+  who never started it at all (`notLaunched=true`), and some more.
 
