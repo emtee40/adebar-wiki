@@ -1,9 +1,10 @@
 ## Tools shipped with Adebar
 I decided to include some tools with *Adebar* – mainly some scripts I use in the
-same area. You can find them in the `tools/` sub directory. To give you a raw
-idea what they are about, they shall be listed here:
+same area (i.e. device backups and documentation). You can find them in the
+`tools/` sub directory. To give you a raw idea what they are about, they shall
+be listed here:
 
-* `ab2tar`: convert an ADB backup file (*.ab`) into a
+* `ab2tar`: convert an ADB backup file (`*.ab`) into a
   [Tarball](https://en.wikipedia.org/wiki/Tar_(computing)) in order to
   investigate its contents. Called without parameters, it will reveal its
   syntax. Passed the file name of the backup, it will do its job.
