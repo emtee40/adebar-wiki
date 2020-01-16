@@ -30,7 +30,7 @@ app on an *Android Go* device running Android 8.1 (more precisely: a
 > + [Smart Assist - Clean & Boost & Security](https://www.appbrain.com/app/com.ape.cleanassist)
 >     + first installed: 2008-12-31 17:00:00
 >     + last updated: 2008-12-31 17:00:00
->     + installed version: 9.0.10.14
+>     + installed version: 9.0.10.14 (901014)
 >     + IDs:     userId=10108
 >     + CodePath: `/system/vital-app/SmartAssist_CA`
 >     + App data: `/data/user/0/com.ape.cleanassist`
@@ -58,9 +58,16 @@ URL you have defined for that source (see `APP_MARKET_URL` in [[Configuration]])
 * **last used:** some apps also state when they were last used – i.e. when the
   user actively opened its interface the last time. Obviously empty if that
   didn't happen at all.
-* **installed version:** version of the app. More fun with pre-installed apps:
-  the last version available on Play Store was 8.0.30.18 here. But we got
-  9.0.10.14 here. No idea where from.
+* **installed version:** version of the app. In (parenthesis) you will see the
+  „versionCode“: this is an internal number Android uses to tell versions apart.
+  A higher versionCode always means a newer version (and Android usually refuses
+  to „update“ an app to an older version, going by this number). Whereas the
+  other part (called „versionName“) is what is shown to the user, and has no
+  „technical relevance“; two different versions could show the same versionName
+  – and the newer version could even show a name that „looks older“ (though such
+  cases are pretty rare).  
+  More fun with pre-installed apps: the last version available on Play Store was
+  8.0.30.18 for this app. But we got 9.0.10.14 here. No idea where from.
 * **IDs:** any IDs associated with this app. Here it's *userId* – which is the
   ID used on OS level for access permissions etc. On a shell, if this app is
   running, you should be able to grab its process(es) via the `ps` command.
