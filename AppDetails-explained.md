@@ -31,6 +31,7 @@ app on an *Android Go* device running Android 8.1 (more precisely: a
 >     + first installed: 2008-12-31 17:00:00
 >     + last updated: 2008-12-31 17:00:00
 >     + installed version: 9.0.10.14 (901014)
+>     + signature scheme: 1
 >     + IDs:     userId=10108
 >     + CodePath: `/system/vital-app/SmartAssist_CA`
 >     + App data: `/data/user/0/com.ape.cleanassist`
@@ -68,6 +69,21 @@ URL you have defined for that source (see `APP_MARKET_URL` in [[Configuration]])
   cases are pretty rare).  
   More fun with pre-installed apps: the last version available on Play Store was
   8.0.30.18 for this app. But we got 9.0.10.14 here. No idea where from.
+* **signature scheme:** refers to the [APK
+  signing](https://source.android.com/security/apksigning) process – which is to
+  ensure nobody tampers with an APK once its developer has released it, and thus
+  to prevent e.g. malware injection. The higher the number here, the harder the
+  protection should be to circumvent. Signing scheme v2 was introduced with
+  Android 7 (aka Nougat), and thus not understood by Android 6 and below; v3 was
+  introduced with Android 9 (Pie). To ensure maximum protection while still
+  maintaining compatibilty with older Android versions, developers can apply
+  multiple signing schemes concurrently; each Android version then would rely on
+  the highest one found that it understands (e.g. a device running Nougat would
+  ignore v3 and v1 and pick v2, even if all 3 are available – but accept v1 if
+  no v2 signature were present).  
+  Another score against pre-installed apps here: though this device runs Android
+  8.1 (Oreo) and thus would easily understand a v2 signature, several (luckily
+  not all) of its pre-installed apps are only using v1 signatures.
 * **IDs:** any IDs associated with this app. Here it's *userId* – which is the
   ID used on OS level for access permissions etc. On a shell, if this app is
   running, you should be able to grab its process(es) via the `ps` command.
