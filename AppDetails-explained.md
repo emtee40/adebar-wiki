@@ -1,4 +1,25 @@
 ## App Details explained
+### Organization
+First level of organization is pretty clear: System Apps and User Apps are
+listed in separate files (by default, `sysApps.md` and `userApps.md`). Inside
+each of these files, apps are grouped by the source they came from. At least
+that's the theory; the next paragraph will explain why reality differs a little.
+
+To determine the source, *Adebar* uses the package's `installer` attribute. This
+is set by the managing app that installed it – usually the apps of Google Play,
+F-Droid etc. There are three exceptions where *Adebar* has no chance to determine
+the „real source“:
+
+* if you used `adb install` from your computer
+* if you used `pm install` from the shell on your Android device
+* if you downloaded/copied an `.apk` to your device and invoked the package installer directly by „tapping“ the `.apk` file in your favorite on-device file manager
+
+In those three cases, the installer property will either be `none` or
+`com.android.packageinstaller` (the package installer itself) – and the generated
+report will group the apps under those headings.
+
+
+### Per-App Details
 Looking at the app details in either `sysApps.md` or `userApps.md`, not all
 fields are self-explaining – at least if you're not a developer. So I'll try to
 shed some light here, going by an example entry and field-by-field, giving you
@@ -67,4 +88,6 @@ URL you have defined for that source (see `APP_MARKET_URL` in [[Configuration]])
   created any user other than the first, only „User 0“ (the „device owner“) will
   show up here. In the example we see the app was installed for user0 (`installed=true`)
   who never started it at all (`notLaunched=true`), and some more.
-
+* **disabled components:** which parts of an app are disabled (if any). Disabled
+  components often correspond to functionality you deactivated via the app's
+  settings – or, on a rooted device, some advanced auto-start manager.
