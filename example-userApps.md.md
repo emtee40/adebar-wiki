@@ -2,7 +2,7 @@
 (As of 2020-01-17 20:10) <sup>[help](https://codeberg.org/izzy/Adebar/wiki/AppDetails-explained)</sup>
 ## Installed from Google Play (installer: com.android.vending)
 
-+ [com.keramidas.TitaniumBackupAddon](https://www.appbrain.com/app/com.keramidas.TitaniumBackupAddon)
++ **[com.keramidas.TitaniumBackupAddon](https://www.appbrain.com/app/com.keramidas.TitaniumBackupAddon)**
     + first installed: 2019-10-15 01:21:40
     + last updated: 2019-10-15 01:21:40
     + installed version: 1.0.0 (1)
@@ -14,8 +14,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=399327 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [Threema QR Scanner Plugin](https://www.appbrain.com/app/ch.threema.qrscannerplugin)
++ **[Threema QR Scanner Plugin](https://www.appbrain.com/app/ch.threema.qrscannerplugin)**
     + first installed: 2019-08-26 23:22:14
     + last updated: 2019-08-26 23:22:14
     + installed version: 2.0 (16)
@@ -26,8 +25,7 @@
     + supported screen sizes: [small, medium, large, xlarge, resizeable, anyDensity]
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + User 0: ceDataInode=415696 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
-
-+ [Titanium Backup ★ root](https://www.appbrain.com/app/com.keramidas.TitaniumBackup)
++ **[Titanium Backup ★ root](https://www.appbrain.com/app/com.keramidas.TitaniumBackup)**
     + first installed: 2018-09-30 01:19:10
     + last updated: 2019-04-26 23:44:17
     + installed version: 8.3.3 (414)
@@ -42,10 +40,9 @@
     + User 0: ceDataInode=375034 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
 
 
-
 ## Installed from unknown source (installer: none)
 
-+ Threema (ch.threema.app)
++ **Threema (ch.threema.app)**
     + first installed: 2019-08-26 23:22:04
     + last updated: 2019-12-26 00:06:07
     + installed version: 4.22 (519)
@@ -58,8 +55,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
     + privateFlags: [ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=415683 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [BQ Camera](https://www.appbrain.com/app/com.bq.camerabq)
++ **[BQ Camera](https://www.appbrain.com/app/com.bq.camerabq)**
     + first installed: 2018-09-29 22:18:38
     + last updated: 2018-09-29 22:18:38
     + installed version: 3.1.8 (2530108)
@@ -72,10 +68,9 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
     + User 0: ceDataInode=375393 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
 
-
 ## Installed from com.android.packageinstaller (installer: com.android.packageinstaller)
 
-+ Magisk Manager (com.topjohnwu.magisk)
++ **Magisk Manager (com.topjohnwu.magisk)**
     + first installed: 1972-02-13 09:54:44
     + last updated: 2018-10-22 23:03:58
     + installed version: 6.0.1 (151)
@@ -87,8 +82,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=374989 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ Xposed Installer (de.robv.android.xposed.installer)
++ **Xposed Installer (de.robv.android.xposed.installer)**
     + first installed: 2018-09-29 22:44:12
     + last updated: 2018-09-29 22:44:12
     + installed version: 3.1.5 (43)
@@ -101,10 +95,9 @@
     + privateFlags: [ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=375159 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
 
-
 ## Installed from F-Droid (Privileged) (installer: org.fdroid.fdroid.privileged)
 
-+ [Transportr - Open Source Public Transit](https://f-droid.org/packages/de.grobox.liberario)
++ **[Transportr - Open Source Public Transit](https://f-droid.org/packages/de.grobox.liberario)**
     + first installed: 2018-11-27 00:24:55
     + last updated: 2019-12-29 01:53:55
     + installed version: 2.0.8 (117)
@@ -117,8 +110,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=390983 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [CityZen](https://f-droid.org/packages/com.cityzen.cityzen)
++ **[CityZen](https://f-droid.org/packages/com.cityzen.cityzen)**
     + first installed: 2019-03-17 00:40:58
     + last updated: 2019-07-05 09:14:42
     + installed version: 1.2.1 (10200199)
@@ -130,8 +122,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=399194 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [andOTP - Android OTP Authenticator](https://f-droid.org/packages/org.shadowice.flocke.andotp)
++ **[andOTP - Android OTP Authenticator](https://f-droid.org/packages/org.shadowice.flocke.andotp)**
     + first installed: 2018-10-16 14:02:25
     + last updated: 2019-10-25 00:12:37
     + installed version: 0.6.3.1 (26)
@@ -143,8 +134,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=390924 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [Weather notification](https://f-droid.org/packages/ru.gelin.android.weather.notification)
++ **[Weather notification](https://f-droid.org/packages/ru.gelin.android.weather.notification)**
     + first installed: 2018-10-02 20:54:35
     + last updated: 2018-10-02 20:54:35
     + installed version: 0.3.10 (54)
@@ -156,8 +146,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=376133 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [MuPDF viewer](https://f-droid.org/packages/com.artifex.mupdf.viewer.app)
++ **[MuPDF viewer](https://f-droid.org/packages/com.artifex.mupdf.viewer.app)**
     + first installed: 2018-12-27 11:14:58
     + last updated: 2019-09-30 20:58:05
     + installed version: 1.16.1 (70)
@@ -170,8 +159,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=391024 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [Tower Collector](https://f-droid.org/packages/info.zamojski.soft.towercollector)
++ **[Tower Collector](https://f-droid.org/packages/info.zamojski.soft.towercollector)**
     + first installed: 2018-09-29 21:14:36
     + last updated: 2019-12-04 23:06:51
     + installed version: 2.1.0 (2010044)
@@ -183,8 +171,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=375287 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [Nextcloud Bookmarks](https://f-droid.org/packages/org.schabi.nxbookmarks)
++ **[Nextcloud Bookmarks](https://f-droid.org/packages/org.schabi.nxbookmarks)**
     + first installed: 2018-11-07 18:49:38
     + last updated: 2018-11-07 18:49:38
     + installed version: 1.5 (6)
@@ -196,8 +183,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=390954 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [AdAway](https://f-droid.org/packages/org.adaway)
++ **[AdAway](https://f-droid.org/packages/org.adaway)**
     + first installed: 2018-09-29 20:47:10
     + last updated: 2020-01-08 09:26:10
     + installed version: 4.3.2 (40302)
@@ -212,8 +198,7 @@
     + User 0: ceDataInode=375170 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
     + disabled components:
         - androidx.work.impl.background.systemalarm.SystemAlarmService
-
-+ [SecScanQR](https://f-droid.org/packages/de.t_dankworth.secscanqr)
++ **[SecScanQR](https://f-droid.org/packages/de.t_dankworth.secscanqr)**
     + first installed: 2019-03-19 15:33:02
     + last updated: 2019-12-22 01:27:32
     + installed version: 1.2.5 (18)
@@ -225,8 +210,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=399202 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [DAVDroid](https://f-droid.org/packages/at.bitfire.davdroid)
++ **[DAVDroid](https://f-droid.org/packages/at.bitfire.davdroid)**
     + first installed: 2018-09-29 21:18:49
     + last updated: 2020-01-15 23:06:12
     + installed version: 2.6.3-ose (328)
@@ -239,8 +223,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=375380 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [Open Camera](https://f-droid.org/packages/net.sourceforge.opencamera)
++ **[Open Camera](https://f-droid.org/packages/net.sourceforge.opencamera)**
     + first installed: 2018-10-31 12:00:44
     + last updated: 2019-10-31 22:45:05
     + installed version: 1.47.3 (74)
@@ -252,8 +235,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=376235 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [Gadgetbridge](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge)
++ **[Gadgetbridge](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge)**
     + first installed: 2018-10-02 20:50:05
     + last updated: 2020-01-15 23:04:31
     + installed version: 0.41.0 (165)
@@ -265,8 +247,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=376040 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [com.starapps.tools.tnefextractor](https://f-droid.org/packages/com.starapps.tools.tnefextractor)
++ **[com.starapps.tools.tnefextractor](https://f-droid.org/packages/com.starapps.tools.tnefextractor)**
     + first installed: 2019-09-16 20:34:32
     + last updated: 2019-09-16 20:34:32
     + installed version: 1.0.0 (1)
@@ -278,8 +259,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=399223 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [K-9 Mail](https://f-droid.org/packages/com.fsck.k9)
++ **[K-9 Mail](https://f-droid.org/packages/com.fsck.k9)**
     + first installed: 2018-10-02 21:04:56
     + last updated: 2020-01-08 16:05:58
     + installed version: 5.703 (27003)
@@ -291,8 +271,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=383455 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [LocalGsmNlpBackend](https://f-droid.org/packages/org.fitchfamily.android.gsmlocation)
++ **[LocalGsmNlpBackend](https://f-droid.org/packages/org.fitchfamily.android.gsmlocation)**
     + first installed: 2018-09-29 21:14:04
     + last updated: 2018-09-29 21:14:04
     + installed version: 1.4.22 (68)
@@ -303,8 +282,7 @@
     + supported screen sizes: [small, medium, large, xlarge, resizeable, anyDensity]
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + User 0: ceDataInode=375282 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [Tusky for Mastodon](https://f-droid.org/packages/com.keylesspalace.tusky)
++ **[Tusky for Mastodon](https://f-droid.org/packages/com.keylesspalace.tusky)**
     + first installed: 2019-04-13 23:35:00
     + last updated: 2019-10-03 23:46:35
     + installed version: 9.1 (68)
@@ -317,8 +295,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=399320 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [OsmAnd+ — Offline Travel Maps & Navigation](https://f-droid.org/packages/net.osmand.plus)
++ **[OsmAnd+ — Offline Travel Maps & Navigation](https://f-droid.org/packages/net.osmand.plus)**
     + first installed: 2019-04-15 21:34:05
     + last updated: 2019-12-04 23:12:21
     + installed version: 3.5.5 (355)
@@ -331,8 +308,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION LARGE_HEAP ]
     + privateFlags: [ HAS_DOMAIN_URLS RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=399349 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
-
-+ [GPSIcon](https://f-droid.org/packages/dev.ldev.gpsicon)
++ **[GPSIcon](https://f-droid.org/packages/dev.ldev.gpsicon)**
     + first installed: 2018-10-02 00:52:39
     + last updated: 2019-04-23 23:45:38
     + installed version: 1.4.6 (10)
@@ -344,10 +320,9 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + User 0: ceDataInode=383644 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
 
-
 ## Installed from Xposed (installer: de.robv.android.xposed.installer)
 
-+ [Recents auto-removal override](https://repo.xposed.info/module/andse.recentsoverride)
++ **[Recents auto-removal override](https://repo.xposed.info/module/andse.recentsoverride)**
     + first installed: 2018-11-12 01:11:05
     + last updated: 2018-11-12 01:11:05
     + installed version: 1.0.1 (2)
@@ -359,8 +334,7 @@
     + flags: [ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
     + privateFlags: [ RESIZEABLE_ACTIVITIES ]
     + User 0: ceDataInode=390979 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0
-
-+ [GRAVITY BOX - NOUGAT](https://www.appbrain.com/app/com.ceco.nougat.gravitybox)
++ **[GRAVITY BOX - NOUGAT](https://www.appbrain.com/app/com.ceco.nougat.gravitybox)**
     + first installed: 2018-09-29 23:24:04
     + last updated: 2020-01-05 19:09:09
     + installed version: 7.5.0 (750)
@@ -399,8 +373,7 @@
         - com.ceco.nougat.gravitybox.quicksettings.HeadsUpTile$Service
         - com.ceco.nougat.gravitybox.quicksettings.BluetoothTetheringTile$Service
         - com.ceco.nougat.gravitybox.quicksettings.ExpandedDesktopTile$Service
-
-+ [XPrivacyLua](https://www.appbrain.com/app/eu.faircode.xlua)
++ **[XPrivacyLua](https://www.appbrain.com/app/eu.faircode.xlua)**
     + first installed: 2018-09-29 23:53:29
     + last updated: 2020-01-05 19:06:50
     + installed version: 1.27 (128)
