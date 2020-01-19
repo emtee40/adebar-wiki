@@ -11,7 +11,7 @@ Here you'll find some documentation and other details on *Adebar*.
 To give you an idea of what to expect, here are some anonymized examples of device documentation *Adebar* created:
 
 * [deviceInfo.md](https://github.com/IzzySoft/Adebar/wiki/example-deviceInfo.md)
-* [userApps.md](https://github.com/IzzySoft/Adebar/wiki/example-userApps.md)
+* [userApps.md](https://github.com/IzzySoft/Adebar/wiki/example-userApps.md) ([[AppDetails explained]])
 
 ## Other information
 * Which [devices have been tested successfully](https://github.com/IzzySoft/Adebar/wiki/Tested-Devices) with *Adebar?*
