@@ -141,4 +141,13 @@ Examples of possibilities are:
 ## All my partitions are listed with a size of 0 MiB
 This is the case for non-rooted devices which do not allow to access certain partitioning details without root, as e.g. the [Sony Xperia XZ1 Compact](https://github.com/IzzySoft/Adebar/issues/45) running Android 9. Fear not, nothing broken with your device – it's just that Adebar cannot find out the size. As the remaining information can still be considered useful (so you can see what a partition is used for), it's shown that way.
 
+## App details have no/incomplete storage information
+Details on apps' storage use have been added to `dumpsys diskstats` somewhere
+after Android 6 – so you won't see those details for devices running Android 6
+or lower. Android 7 seems to have added them for APK and cache sizes only, so
+you'll see `(unknown)` for app data sizes of those devices (same seems to be the
+case for Android Go up to 8.1 at least). Full details hence are not available
+before Android 8 (Oreo) – again not the fault of *Adebar.*
+
+
 [1]: http://android.izzysoft.de/downloads "IzzyOnDroid: Android Downloads"
