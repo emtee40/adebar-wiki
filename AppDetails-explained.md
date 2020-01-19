@@ -28,6 +28,7 @@ app on an *Android Go* device running Android 8.1 (more precisely: a
 [Wiko Sunny 3](https://www.gsmarena.com/wiko_sunny3-9733.php)):
 
 > + [Smart Assist - Clean & Boost & Security](https://www.appbrain.com/app/com.ape.cleanassist)
+>     + storage used (app/data/cache): 30 MiB / (unknown) / 14 KiB
 >     + first installed: 2008-12-31 17:00:00
 >     + last updated: 2008-12-31 17:00:00
 >     + installed version: 9.0.10.14 (901014)
@@ -46,6 +47,11 @@ package name) – if possible linked to a place where it can be obtained from.
 Where the link goes to depends on where the app was installed from – and which
 URL you have defined for that source (see `APP_MARKET_URL` in [[Configuration]]).
 
+* **storage used (app/data/cache):** how much storage space an app consumes.
+  These details are not available before Android 7 (Nougat), and are incomplete
+  until Android 8 (Oreo) (on *Android Go* even with Oreo it seems) – so you might
+  either miss them completely or see `(unknown)` entries for app data here on
+  older Android versions.
 * **first installed:** when the app was initially installed. For apps that came
   pre-installed with the device, this often is a fictive date, as in this
   example.
