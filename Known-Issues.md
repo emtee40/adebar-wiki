@@ -22,11 +22,14 @@ Apps which I found having this issue include the following:
     - MobilityMap
     - WakeLockDetector
 
-If your device is rooted, you can work around this using [Xposed](http://repo.xposed.info/module/de.robv.android.xposed.installer)
-with the [Backup All Apps](http://repo.xposed.info/module/com.pyler.backupallapps)
-module, which I tested successfully. The [XInstaller](http://repo.xposed.info/module/com.pyler.xinstaller)
-module also contains a corresponding switch, and thus might work as well (not
-tested by me).
+Starting with *Adebar* 1.9.0, backing up apps which explicitly disallow being
+backed up is no longer even attempted; instead, the backup script will hold a
+comment on each such app pointing out we can't back it up via `adb backup`. I
+decided for this step as even the
+[Xposed](http://repo.xposed.info/module/de.robv.android.xposed.installer) module
+[Backup All Apps](http://repo.xposed.info/module/com.pyler.backupallapps) stopped
+working (seems no longer effective with Android 6+). If you know about other
+means, please open an issue telling me and I'll look into it.
 
 
 ## ADB Backup not working for *any* app (0/41 byte files)
