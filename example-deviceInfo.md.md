@@ -169,7 +169,7 @@
 ### Storage details
 * Internal SD via FUSE: true
 * SDCardFS: force_on
-* [Storage encrypted[(https://source.android.com/security/encryption): unencrypted
+* [Storage encrypted](https://source.android.com/security/encryption): unencrypted
 * Partitions (source: PARTS)
     * /dev/block/mmcblk0: mmcblk0 (7.296 MiB)
     * /dev/block/mmcblk0p1: mmcblk0p1 (5 MiB)
