@@ -13,12 +13,8 @@
 * Screen density: 240
 
 ### Sensors
-* 0000000000) Mir3da 3-axis Accelerometer (Miramems)
-* continuous (minRate=1.00Hz)
-* 0x00000004) FOCALTECH Proximity sensor (Eminent)
-* on-change (maxDelay=0us)
-* baki (WakeLockRefCount0)
-* Mir3da 3-axis Accelerometer 0x00000000 (status:active)
+* Mir3da 3-axis Accelerometer (Miramems)
+* FOCALTECH Proximity sensor (Eminent)
 
 ### OS details
 * SDK/Android version: 27/8.1.0
