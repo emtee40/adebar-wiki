@@ -282,6 +282,11 @@ details. Apps are grouped by installers in [[userApps.md|example userApps.md]].
   of the `bash` binary using `#!/usr/bin/env bash`. You can override that
   to a preferred fixed location using this variable, e.g.
   `BASH_LOCATION="/bin/bash"` if needed – except for `adebar-cli` itself.
+* `WIKI_BASE`: The *Adebar* wiki is available at Codeberg and Github. Using
+  this variable, you can decide where wiki links should point to; by default,
+  they will go to Codeberg for better privacy. If you run a local mirror of
+  the *Adebar* repository incl. its wiki (e.g. using [Gitea](https://gitea.io/),
+  you can also point wiki links there.
 
 
 ## User-defined Functions
