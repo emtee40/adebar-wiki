@@ -7,6 +7,7 @@
     * [deviceInfo.md](example-deviceInfo.md)
     * [userApps.md](example-userApps.md)
     * [[AppDetails explained]]
+    * [[DeviceInfo explained]]
 * Other information
     * [[Known Issues]]
     * [[adebar-gui]]
