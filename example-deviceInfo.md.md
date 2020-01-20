@@ -4,7 +4,6 @@
 ### Product Info
 * Manufacturer: WIKO
 * Model: Sunny3 (W_K120)
-* Manufatured on: Sat Nov 23 10 30 54 CST 2019
 * Serial: JAA41926000960
 * Platform: sp7731e
 * Bootloader: unknown
@@ -19,6 +18,7 @@
 ### OS details
 * SDK/Android version: 27/8.1.0
 * BuildID: OPM2.171019.012
+* Build date: Sat Nov 23 10 30 54 CST 2019
 * Fingerprint: WIKO/W_K120_EEA/W_K120 8.1.0/OPM2.171019.012/1574476020 user/release-keys
 * Security Patch Level: 2019-12-05
 * Kernel: 4.4.83+
