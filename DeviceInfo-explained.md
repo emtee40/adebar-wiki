@@ -152,4 +152,6 @@ that itself can request a backup to be initiated.
 
 Additional details on backups, like the current backup queue, can be obtained
 using `adb shell dumpsys backup` (or from the `dumpsys_backup` file if you
-created a dummy device, see [[Dummy-Devices]] for details).
+created a dummy device, see [[Dummy-Devices]] for details). An explanation of
+the output from `dumpsys backup` you can e.g. find [in my answer at
+StackOverflow](https://stackoverflow.com/a/59886227/2533433).
