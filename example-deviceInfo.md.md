@@ -1,5 +1,5 @@
-# MyDroid Device Information
-(Generated at: 2020-01-16 17:00)
+# Wiko Sunny 3 Device Information
+(Generated at: 2020-01-24 00:18) **<sup>[ⓘ](https://codeberg.org/izzy/Adebar/wiki/DeviceInfo-explained)</sup>**
 ## Device and ROM properties
 ### Product Info
 * Manufacturer: WIKO
@@ -28,7 +28,7 @@
 
 
 ## Device features
-`pm list features`:
+`pm list features`: **<sup>[ⓘ](https://codeberg.org/izzy/Adebar/wiki/DeviceInfo-explained#device-features)</sup>**
 
 * reqGlEsVersion=0x30002
 * android.hardware.audio.output
@@ -83,12 +83,12 @@
 * Wireless powered: false
 * Max charging current: 500000
 * Max charging voltage: 5000000
-* Charge counter: 1986000
+* Charge counter: 1012860
 * present: true
-* level: 100
+* level: 51
 * scale: 100
-* voltage: 4260
-* temperature: 260
+* voltage: 3807
+* temperature: 314
 * technology: Li-ion
 
 ### Radio Status
@@ -166,7 +166,7 @@
 * WiFi driver status: 
 * WiFi scan interval: 
 
-### Storage details
+### Storage details <sup>[ⓘ](https://codeberg.org/izzy/Adebar/wiki/DeviceInfo-explained#storage-details)</sup>
 * Internal SD via FUSE: true
 * SDCardFS: force_on
 * [Storage encrypted](https://source.android.com/security/encryption): unencrypted
@@ -192,11 +192,11 @@
     * /dev/block/mmcblk0boot0: mmcblk0boot0 (4 MiB)
 * Disk statistics:
     * Latency: 1ms [512B Data Write]
-    * Data-Free: 3357384K / 5423068K total = 61% free
-    * Cache-Free: 3357384K / 5423068K total = 61% free
+    * Data-Free: 3337280K / 5423068K total = 61% free
+    * Cache-Free: 3337280K / 5423068K total = 61% free
     * System-Free: 85784K / 1366632K total = 6% free
-    * App Size: 1966511104
-    * App Cache Size: 320548352
+    * App Size: 1985278976
+    * App Cache Size: 342353920
     * Photos Size: 24195072
     * Videos Size: 0
     * Audio Size: 0
@@ -204,12 +204,10 @@
     * System Size: 2446778368
     * Other Size: 313559040
 
-### SafetyNet
+### SafetyNet **<sup>[ⓘ](https://codeberg.org/izzy/Adebar/wiki/DeviceInfo-explained#safetynet)</sup>**
 * BootLoader locked
 * [Verified Boot State](https://source.android.com/security/verifiedboot): green (device is LOCKED and user-settable root of trust is not used)
 * unlocking bootloader through developer settings: disabled
-
-<small>Note that this only covers a small part of SafetyNet checks. If you want to dig deeper into this, see e.g. [Inside SafetyNet](https://koz.io/inside-safetynet/).</small>
 
 ### Miscellaneous
 * SIM required for operation: No
@@ -219,16 +217,15 @@
 ## Configured accounts
 *  name=xxxxxx@gmail.com, type=com.google
 *  name=Meine Threema-ID, type=ch.threema.app
-*  visibility:
 
-## Google Cloud Backup
+## Android Backup Manager
 * Backup Manager is disabled / provisioned / not pending init
 * Auto-restore is enabled
 * Backup destinations:
-    -  Backing up to debug-only private cache
-    -  Daten auf neues Gerät verschieben
-    -  Füge jetzt ein Sicherungskonto hinzu
-* Last backup pass started: 0 (now = 1579190461284)
+    - android/com.android.internal.backup.LocalTransport: Backing up to debug-only private cache
+    - com.google.android.gms/.backup.migrate.service.D2dTransport: Daten auf neues Gerät verschieben
+    - **com.google.android.gms/.backup.BackupTransportService:** Füge jetzt ein Sicherungskonto hinzu
+* Last backup pass started: 0 (now = 1579821524490)
 * Ever backed up: 0
 * Participants:
     - com.android.providers.settings
