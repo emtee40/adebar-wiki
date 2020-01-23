@@ -15,6 +15,7 @@ be listed here:
 * `getapk`: Grab APK files from your device via ADB. Which ones, depends on the
   parameter you pass to it: a single APK when given a package name, all user
   apps, all system apps – or even all apps. Call without parameters for details.
+* `mk_dummy`: Script to create [[Dummy-Devices]].
 * `ssnap`: a (serial) screenshot snapper. It will put your device into demo mode,
   set the clock to the specified value while hiding all your „real notifications“,
   optionally starting an app if you specified its package name, and then perform

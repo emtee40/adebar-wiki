@@ -19,3 +19,4 @@ To give you an idea of what to expect, here are some anonymized examples of devi
 * [[adebar-gui]]: where is it?
 * Miscellaneous [[Hints]] for Adebar usage
 * [[Tools]] shipping with *Adebar* and being useful even without it
+* [[Dummy-Devices]]

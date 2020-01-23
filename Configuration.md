@@ -34,6 +34,7 @@ A short information for each setting is contained in the example config file, wh
   e.g. set it as `STORAGE_PATH=/home/me/backups`, and pass `moto_x` as
   parameter to `adebar_cli`, your files should end up below
   `/home/me/backups/moto_x`.
+* `DUMMY_BASE`: where your [[Dummy-Devices]] are located. You probably won't need this.
 * `USERDIR`: sub-directory where the backup scripts will place the ADB backups
   of your user-apps into (relative to where they're run). Default is "userApps".
 * `SYSDIR`: Similar, for the data backups of your system apps. Defaults to "sysApps".
@@ -86,6 +87,8 @@ A short information for each setting is contained in the example config file, wh
   is empty. It's not strictly needed as long as you only have one device
   connected when running `adebar-cli`. If there are multiple devices connected,
   *Adebar* uses the `SERIAL` to tell ADB which one to use.
+* `DUMMY`: if this config belongs to a [[Dummy-Device]], this specifies its name
+  (which is also the directory name inside `DUMMY_BASE` where its data are stored).
 
 ### Settings for Titanium Backup
 *Titanium Backup* features an integrated web server to obtain device contents from.
