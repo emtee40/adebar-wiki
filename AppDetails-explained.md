@@ -47,6 +47,17 @@ package name) – if possible linked to a place where it can be obtained from.
 Where the link goes to depends on where the app was installed from – and which
 URL you have defined for that source (see `APP_MARKET_URL` in [[Configuration]]).
 
+* **category:** the optional attribute `appCategory` was added with Oreo
+  (Android 8.0), see [developer reference](https://developer.android.com/reference/android/R.attr.html#appCategory).
+  They seem not to show up on all Android 8+ devices, though. Categories are described as:
+    * game: Apps which are primarily games
+    * audio: Apps which primarily work with audio or music, such as music players
+    * video: Apps which primarily work with video or movies, such as streaming video apps
+    * image: Apps which primarily work with images or photos, such as camera or gallery apps
+    * social: Apps which are primarily social apps, such as messaging, communication, email, or social network apps
+    * news: Apps which are primarily news apps, such as newspapers, magazines, or sports apps
+    * maps: Apps which are primarily maps apps, such as navigation apps
+    * productivity: Apps which are primarily productivity apps, such as cloud storage or workplace apps
 * **storage used (app/data/cache):** how much storage space an app consumes.
   These details are not available before Android 7 (Nougat), and are incomplete
   until Android 8 (Oreo) (on *Android Go* even with Oreo it seems) – so you might
