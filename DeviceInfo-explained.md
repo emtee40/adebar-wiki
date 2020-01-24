@@ -145,7 +145,9 @@ After that you'll be informed of the current status of the backups themselves:
 when the last backup was started (a [Unix
 timestamp](https://en.wikipedia.org/wiki/Unix_timestamp "Wikipedia: Unix
 timestamp") or `0` if no backup had been taken yet), and if anything was ever
-backed up from the device at all.
+backed up from the device at all. Further a summary on the backup queues will
+be shown: how many requests from participants (key/value backup) are pending,
+and how many apps are waiting to be backed up (full backup queue).
 
 That is followed by a list of „Backup Participants“. A participant is an app
 that itself can request a backup to be initiated.
