@@ -25,7 +25,10 @@ Motorola Milestone 2    |       4.2.x |         | CyanogenMod (Izzy)
 Motorola Milestone 2    |       4.3.x | 2015-10 | CyanogenMod 10.2 (Izzy)
 Motorola Milestone 2    |       4.4.x | 2015-11 | CyanogenMod 11 (Izzy)
 Oneplus (A0001)         |       5.1.1 | 2015-11 | Cyanogenmod (inktrap)
+OnePlus 3               |       8.0.x | 2020-05 | stock OxygenOS 5.0.8, rooted (5c0tt-b0t)
+OnePlus 3               |       9.0.x | 2020-05 | OxygenOS 9.0.6, rooted (5c0tt-b0t)
 Samsung Galaxy Ace 2    |       4.1.2 | 2015-10 | stock, not rooted (Izzy)
+Samsung Galaxy S5       |       7.1.2 | 2020-05 | AOSP/CAF, rooted (5c0tt-b0t)
 Samsung Galaxy S7 Edge  |       6.0.1 | 2016-07 | Adebar > 1.6.0 needed (Izzy)
 Samsung Galaxy S7 Edge  |       8.0.0 | 2020-01 | stock, not rooted; Adebar 1.9.0 (Izzy)
 Sony Xperia XZ1 Compact |       9.x.x | 2019-03 | stock, not rooted; Adebar > 1.8.0 (De4DMaN)
@@ -50,3 +53,8 @@ Cat PC4 (aka Phoenix)   |       4.1.1 |         | stock ROM (Izzy)
 Cat PC4 (aka Phoenix)   |       4.2.x | 2015-10 | stock ROM (Izzy)
 Lenovo Tab3-7 (710F)    |       5.0.1 | 2016-12 | stock ROM (Izzy)
 Nexus 7 (2013) LTE (razorg) |   6.0.1 | 2015-12 | stock (chaotix)
+
+### Others
+Device                  | Android<br>version | Date    | Comment
+----------------------- | --------------: | ------- | ---------------------
+Amlogic S912 (TV Box)   |       7.1.2 | 2020-05 | rooted (5c0tt-b0t)
