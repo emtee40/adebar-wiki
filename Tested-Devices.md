@@ -27,6 +27,7 @@ Motorola Milestone 2    |       4.4.x | 2015-11 | CyanogenMod 11 (Izzy)
 Oneplus (A0001)         |       5.1.1 | 2015-11 | Cyanogenmod (inktrap)
 OnePlus 3               |       8.0.x | 2020-05 | stock OxygenOS 5.0.8, rooted (5c0tt-b0t)
 OnePlus 3               |       9.0.x | 2020-05 | OxygenOS 9.0.6, rooted (5c0tt-b0t)
+OnePlus 5T              |       9.x.x | 2020-06 | stock OxygenOS 9.0.11, rooted (5c0tt-b0t)
 Samsung Galaxy Ace 2    |       4.1.2 | 2015-10 | stock, not rooted (Izzy)
 Samsung Galaxy S5       |       7.1.2 | 2020-05 | AOSP/CAF, rooted (5c0tt-b0t)
 Samsung Galaxy S7 Edge  |       6.0.1 | 2016-07 | Adebar > 1.6.0 needed (Izzy)
@@ -56,5 +57,6 @@ Nexus 7 (2013) LTE (razorg) |   6.0.1 | 2015-12 | stock (chaotix)
 
 ### Others
 Device                  | Android<br>version | Date    | Comment
------------------------ | --------------: | ------- | ---------------------
+----------------------- | ----------: | ------- | ---------------------
 Amlogic S912 (TV Box)   |       7.1.2 | 2020-05 | rooted (5c0tt-b0t)
+Rockchip RK3328         |       9.x.x | 2020-06 | rooted TV box (5c0tt-b0t)
