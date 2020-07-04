@@ -98,11 +98,12 @@ does your device offer, how much is used and by what. Basically what you can fin
 on-device in *Settings › Storage.*
 
 #### SafetyNet
-This section tries to sum up some [SafetyNet](https://www.lineageos.org/Safetynet/
-LineageOS.Org: What is SafetyNet, and how it affects you") related data. It's by
-far not complete (as it's not easy for a Shell program like *Adebar* to test that
-in depth), but at least gives you some basic indicators on whether *SafetyNet*
-might be triggered on your device – e.g. because you unlocked your bootloader.
+This section tries to sum up some
+[SafetyNet](https://www.lineageos.org/Safetynet/ "LineageOS.Org: What is SafetyNet, and how it affects you")
+related data. It's by far not complete (as it's not easy for a Shell program
+like *Adebar* to test that in depth), but at least gives you some basic
+indicators on whether *SafetyNet* might be triggered on your device – e.g.
+because you unlocked your bootloader.
 
 General implication: with *SafetyNet* triggered, some applications will refuse to
 work. Just like that. Some of them you shouldn't use on a smartphone anyway (like
