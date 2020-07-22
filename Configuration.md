@@ -21,7 +21,9 @@ When running, *Adebar* first sets up „default values“, and then checks for a
 A sample configuration file is included as `doc/config.sample`, which you
 simply can copy and adjust. Your config file has only to contain the
 settings you wish to change; this will usually be the `DEVICE_IP` (which is not
-set by default) and/or the `STORAGE_BASE`.
+set by default) and/or the `STORAGE_BASE`. For an easy quick-start, there's
+also `doc/quickstart_config.sample` concentrating on essential things (like
+the „user function“ to assemble the final device documentation).
 
 
 ## What settings are available, and what do they mean?
@@ -202,6 +204,8 @@ and `1` stands for „on”. By default, all features are enabled (i.e. set to `
       decided to give you the change to switch it off :)
     * `MK_DEVICEINFO_STATUS`: Device status details, such as battery status
     * `MK_PARTINFO`: Include details on storage partitions
+    * `MK_RADIO`: Show details on the "mobile radio" (SIM etc)? You'll want
+       to turn this off e.g. for your WiFi-only tablet.
 
 ### UserApp specifics
 When an app is installed, Android records the „installer“ together with other

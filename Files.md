@@ -6,7 +6,11 @@
 * `doc/config.sample`: an example config file. If you do not need support for
   pulling stuff via the *Titanium Backup* built-in web server, and satisfied with
   how things work by default, you can ignore this file. Otherwise, copy or rename
-  it to `config` (in the main dir), and adjust it to your needs.
+  it to `config` (in the main dir) or `config/<name>` (with a name of your choice),
+  and adjust it to your needs.
+* `doc/quickstart_config.sample`: an example config file for an easy and quick
+  start, covering only the most essential things (like assembling the final HTML
+  file of the generated documentation and giving your device a name).
 * `doc/AdebarFiles.gv`: Graphviz source of the image below (to visualize
   generated files)
 * `LICENSE`: *Adebar* license details (GPLv2)
@@ -15,6 +19,10 @@
 * `tools/ab2tar`: tiny shell script to convert ADB Backups to `.tar.gz`. Requires
    openssl and zlib.
 * `tools/getapk`: shell script to extract specific|all|user|system apps
+* `tools/mkdummy`: to create a "dummy device" from your real one (mainly intended
+  for debug purposes: if you need assistance, you could zip/tar that after having
+  it sanitized and attach it to an issue, or send it by other means)
+* `tools/ssnap`: to create a series of screenshots from your device
 * `tools/getPkgData.php`: a PHP script to parse and analyze the `packages.xml` file.
   This was originally called from `adebar-cli` to create e.g. the `userApps.md`.
   After rewriting that functionality to get rid of the PHP dependency, I've decided
@@ -99,42 +107,16 @@ are for you to run, after an optional modification:
 
 
 ## What format are the generated files in the `doc/` sub-directory using?
-Not a question for those used to *Github*, who probably recognize the `.md`
-suffix. This suffix stands for [Markdown], a plain text formatting syntax to
+Originally, they were using [Markdown], a plain text formatting syntax to
 produce well-formatted documents, while still being easy enough to read without
-being converted first.
+being converted first. With *Adebar* version 2.0.0, they are „HTML fragments“,
+as [HTML] allows for more flexible formatting.
 
-There are different „flavors“ of [Markdown] around. Some of the most common ones
-include:
+Both configuration examples in the `doc/` sub-directory come with a „user function“
+named `uf_postrun` which, with the help of files in the `template/` directory,
+assemble those HTML fragments to a complete HTML page at the end of each run, so
+you can simply open them with the web browser of your choice. Some example
+documentations can be [found here](https://pages.codeberg.org/izzy/adebar/).
 
-* [Standard Markdown][1], which all flavors are based upon (and which *Adebar*
-  sticks to when creating the files in the `doc/` sub-directories)
-* [Github flavored Markdown][2] as being used at, hrm, Github
-* [Stack Exchange's Markdown][3]
-* [Markdown Extra][4]
-* and several more
-
-So apart from copying the generated `.md` files to a *Github Gist*, what
-alternatives are there to view them in their „formatted way“?
-
-* [ReText][5] is an easy to use editor and viewer for [Markdown], and even
-  understands several flavors. It can be extended with plugins, and is
-  available for Linux (officially) and Mac.
-* [ownCloud][6] and [Nextcloud][10] have an integrated [Markdown] viewer and editor
-* for Windows, there's [MarkdownPad][7] with a look-and-feel quite similar
-  to [ReText][5].
-* For *Firefox* users, there are some [Markdown Viewer][8] addons
-* More alternatives can be found in an article titled
-  [78 Tools for Writing and Previewing Markdown][9]
-
+[HTML]: https://en.wikipedia.org/wiki/HTML "Wikipedia: HTML"
 [Markdown]: http://en.wikipedia.org/wiki/Markdown "Wikipedia: Markdown"
-[1]: https://daringfireball.net/projects/markdown/
-[2]: https://github.github.com/github-flavored-markdown/
-[3]: https://stackoverflow.com/editing-help
-[4]: https://en.wikipedia.org/wiki/Markdown_Extra "Wikipedia: Markdown Extra"
-[5]: https://github.com/retext-project/retext
-[6]: https://owncloud.org/
-[7]: https://markdownpad.com/
-[8]: https://addons.mozilla.org/de/firefox/search/?q=markdown
-[9]: https://mashable.com/2013/06/24/markdown-tools/
-[10]: https://nextcloud.com/

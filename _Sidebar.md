@@ -4,8 +4,9 @@
     * [[Usage]]
     * [[Files]]
 * Example Output
-    * [deviceInfo.md](example-deviceInfo.md)
-    * [userApps.md](example-userApps.md)
+    * <s>[deviceInfo.md](example-deviceInfo.md) (old)</s>
+    * <s>[userApps.md](example-userApps.md) (old)</s>
+    * [Documentation](https://pages.codeberg.org/izzy/adebar/)
     * [[AppDetails explained]]
     * [[DeviceInfo explained]]
 * Other information

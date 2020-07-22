@@ -94,10 +94,12 @@ Which image belongs to which partition you can check in the corresponding backup
 script.
 
 ### Documentation
-The files in the `doc/` directory are your device's documentation, using
-[Markdown] format. Please see the linked Wikipedia page for details. There
-are several viewers/editors/convertors able to deal with this format – and
-even without any, they should be easy to read in any text viewer/editor.
+The files in the `doc/` directory are your device's documentation, using [HTML]
+format (before Adebar 2.0.0, they were using [Markdown]). Please see the linked
+Wikipedia page for details. You can simply use your web browser to view them.
+Ideally, you had the `uf_postrun()` function enabled that assembled a complete
+HTML file for you in a location of your choice, to make viewing more convenient.
 
 
 [Markdown]: https://en.wikipedia.org/wiki/Markdown "Wikipedia: Markdown"
+[HTML]: https://en.wikipedia.org/wiki/HTML "Wikipedia: HTML"

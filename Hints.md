@@ -13,7 +13,7 @@ below) might take quite a while, as your SD cards might hold gigabytes of data.
 At the same time, it puts quite a strain on your battery, as it needs to transfer
 all those data. So make sure to have a power source connected to your device
 during the backup process (you probably will have that, as ADB is mostly used
-via USB – but you could also use "ADB wireless", and the *TiBu* stuff is using
+via USB – but you could also use „ADB wireless“, and the *TiBu* stuff is using
 WiFi as well – so I'd thought to better point this out).
 
 ### When running the real backup
@@ -77,7 +77,7 @@ Version 1.1.0 of *Adebar* added the functionality to create a script for
 backing up your partitions block-wise, i.e. create partition images. Consider
 this rather experimental: This script is a side-product of the partition info
 in the device documentation. Such images can get rather big, and running the
-script as-is might result in unnecessary "duplicates" (to give you an example:
+script as-is might result in unnecessary „duplicates“ (to give you an example:
 It might backup `/dev/block/mmcblk1`, which basically is the entire „drive“,
 and additionally all its partitions separately: `/dev/block/mmcblk1p*`).
 This is because there's no unified way of retrieving partition details. Other
@@ -117,7 +117,7 @@ Xiaomi Mi8              | `(61 61 61 66)`         | `(61 61 66)`  |
 
 ### Device documentation: Names of system apps
 Depending on the vendor and ROM of your device, it ships with several (hundreds)
-apps pre-installed: there's the stock Android system, and the Cyanogen "stock"
+apps pre-installed: there's the stock Android system, and the Cyanogen „stock“
 (CyanogenOS / CyanogenMod). Vendors like LG or Motorola add some of their specific
 apps – and vendors like Samsung tend to bloat your device with tons of their own
 apps as well as that of others (on a *Galaxy S7 Edge,* I've counted almost 5 times
@@ -126,7 +126,7 @@ the amount of pre-installed apps found on e.g. the *LG P880:* far more than 200)
 In order to not just see their package names in your system apps listings (many of
 those apps are not found on *Google Play,* so you'd have to do some research or
 make pretty good guesses), you can pre-fill *Adebar's* app-name-cache: Find the
-necessary "cache files" in the [Adebar-Appcache](https://github.com/IzzySoft/Adebar-Appcache)
+necessary „cache files“ in the [Adebar-Appcache](https://github.com/IzzySoft/Adebar-Appcache)
 project (clone it or [download it as ZIP
 file](https://github.com/IzzySoft/Adebar-Appcache/archive/master.zip)). Be welcome
 to contribute to it – the selection of devices I have is limited :)

@@ -1,7 +1,7 @@
 ## Tested devices
 This list is obviously incomplete, as not everyone using *Adebar* gives feedback.
 If you're using *Adebar* successfully with your device, please contribute to this list. You
-can add your devices e.g. in [issue #7](https://github.com/IzzySoft/Adebar/issues/7),
+can add your devices e.g. in [issue #7](https://codeberg.org/izzy/Adebar/issues/7),
 where you might also find additional details on the one or other device listed
 below from its original report.
 

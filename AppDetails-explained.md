@@ -12,7 +12,11 @@ the „real source“:
 
 * if you used `adb install` from your computer
 * if you used `pm install` from the shell on your Android device
-* if you downloaded/copied an `.apk` to your device and invoked the package installer directly by „tapping“ the `.apk` file in your favorite on-device file manager
+* if you downloaded/copied an `.apk` to your device and invoked the package
+  installer directly by „tapping“ the `.apk` file in your favorite on-device
+  file manager – or the app you've used to install the new app deferred the
+  installation itself to the package manager (e.g. F-Droid running as user
+  app without the help of its „privileged extension“ as system app).
 
 In those three cases, the installer property will either be `none` or
 `com.android.packageinstaller` (the package installer itself) – and the generated

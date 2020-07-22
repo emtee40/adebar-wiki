@@ -56,6 +56,9 @@ it), Service State (which network the SIM is connected to, whether the network
 was selected manually or automatically, details on connectivity. Again, entries
 should hopefully be understood without much explanation.
 
+If your device is „SIM-less“ (e.g. a WiFi only tablet), you won't be interested
+in this section. It can be turned off using the `MK_RADIO=0` option in the config.
+
 **Provider Info** tells you what network provider the SIM was obtained from –
 including information on its country. The *provider code* is a combination of its
 [MCC](https://en.wikipedia.org/wiki/Mobile_country_code "Wikipedia: Mobile country
