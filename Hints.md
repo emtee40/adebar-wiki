@@ -113,6 +113,7 @@ Device                  | MK_AUTOCONFIRM_SEQUENCE | .._SEQUENCE_2 | Comment
 Default                 | `(22 23)`               |               | works on many devices
 LG H815 (LOS 14.1)      | `(61 61 66)`            |               |
 Xiaomi Mi8              | `(61 61 61 66)`         | `(61 61 66)`  |
+KeePassDX               | `(22 4 20 22 23)`       |               | AutoFill-Feature of KeePassDX
 
 
 ### Device documentation: Names of system apps
