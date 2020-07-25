@@ -22,6 +22,17 @@ In those three cases, the installer property will either be `none` or
 `com.android.packageinstaller` (the package installer itself) – and the generated
 report will group the apps under those headings.
 
+If you uninstalled some apps (`adb shell pm uninstall --user 0 <packageName>`)
+to get rid of unwanted bloatware, and have not disabled the corresponding section
+in your *Adebar* config for the device (`MK_UNINSTAPPS=0`), there will be a third
+section listing those apps. Pointer: if you're looking for help on debloating,
+[Universal Android Debloater](https://gitlab.com/W1nst0n/universal-android-debloater)
+might come in handy. It helps you identifying bloatware on your Android device,
+from generic ones (Google-provided) over manuafacturer specific (Samsung, Xiaomi,
+Huawei & co) up to carrier specific ones, generating the uninstall commands as
+well as the ones to restore them in case you want them back (`adb shell pm
+install-existing <packageName>`).
+
 
 ### Per-App Details
 Looking at the app details in either `sysApps.md` or `userApps.md`, not all

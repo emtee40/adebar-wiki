@@ -37,7 +37,10 @@
     * `deadReceivers.sh`: script which (hopefully) disables those components again,
       e.g. after a factory-reset
     * `defaultInstallLoc`: 1-liner to set the default-install-location for apps
-    * `disable`: shell script utilizing ADB to disable packages
+    * `disable`: shell script utilizing ADB to disable packages you have disabled
+      at the time of generating your report and scripts. This will also hold the
+      commands to uninstall any bloatware you had uninstalled at that time via
+      `adb shell pm uninstall --user 0 <packageName>` (Adebar > v2.0.0).
     * `partBackup`: script to backup all the partitions of your device
     * `sysbackup`: script to backup all data of your system apps, including shared
       storage (data from the SD cards)
