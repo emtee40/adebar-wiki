@@ -175,6 +175,7 @@ and `1` stands for „on”. By default, all features are enabled (i.e. set to `
   switch it off again.  
   Some „pre-configured files“ for system apps can be found in the [Download area
   at IzzyOnDroid][1].
+* `MK_DISAPPS`: Similar for apps you've disabled (via settings or `pm disable`/`pm hide`)
 * `MK_UNINSTAPPS`: Similar for apps you've uninstalled (`pm uninstall --user 0 <packageName>`)
 * `MK_INSTALLLOC`: Deal with the default-install-location (where apps should
   be installed by default: 0=auto (system decides), 1=device, 2=sdcard).
