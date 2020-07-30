@@ -163,6 +163,8 @@ and `1` stands for „on”. By default, all features are enabled (i.e. set to `
 * `MK_TIBU`: create the script to pull stuff from the TiBu web server.
   Even if set to `1`, this will be disabled if you didn't set a `DEVICE_IP`
   (see above in „Settings for Titanium Backup“).
+* `MK_DEFAULTAPPS`: include the default apps section with your app documentation.
+  This will go into `defaultApps.md`.
 * `MK_USERAPPS`: Creates the *script* to deal with "disabled components",
   plus the markup document holding details on installed apps and their sources
   ([[userApps.md|example userApps.md]]). Enabled by default.
