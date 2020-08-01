@@ -127,7 +127,7 @@ the amount of pre-installed apps found on e.g. the *LG P880:* far more than 200)
 In order to not just see their package names in your system apps listings (many of
 those apps are not found on *Google Play,* so you'd have to do some research or
 make pretty good guesses), you can pre-fill *Adebar's* app-name-cache: Find the
-necessary „cache files“ in the [Adebar-Appcache](https://github.com/IzzySoft/Adebar-Appcache)
+necessary „cache files“ in the [Adebar-Appcache](https://codeberg.org/izzy/Adebar-Appcache)
 project (clone it or [download it as ZIP
 file](https://github.com/IzzySoft/Adebar-Appcache/archive/master.zip)). Be welcome
 to contribute to it – the selection of devices I have is limited :)
