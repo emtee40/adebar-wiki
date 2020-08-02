@@ -57,6 +57,7 @@ Cat PC4 (aka Phoenix)   |       4.2.x | 2015-10 | stock ROM (Izzy)
 Lenovo Tab3-7 (710F)    |       5.0.1 | 2016-12 | stock ROM (Izzy)
 Nexus 7 (2013) LTE (razorg) |   6.0.1 | 2015-12 | stock (chaotix)
 Samsung Galaxy Tab S5e  |       9.x.x | 2020-06 | stock (Izzy)
+Samsung Galaxy Tab S5e  |      10.x.x | 2020-07 | stock (Izzy)
 
 
 ### Others
