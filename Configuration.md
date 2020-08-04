@@ -207,6 +207,9 @@ and `1` stands for „on”. By default, all features are enabled (i.e. set to `
       might decide it's not useful to you (as it looks a bit cryptic). So I
       decided to give you the change to switch it off :)
     * `MK_DEVICEINFO_STATUS`: Device status details, such as battery status
+    * `MK_DEVICEINFO_DEVICEPOLICY`: Details on installed „device administrators“.
+      will get quite extensive on Samsung devices, so you might wish to keep this
+      off to avoid a shock ;)
     * `MK_PARTINFO`: Include details on storage partitions
     * `MK_RADIO`: Show details on the "mobile radio" (SIM etc)? You'll want
        to turn this off e.g. for your WiFi-only tablet.
