@@ -39,7 +39,18 @@ the device is currently charged (and if so, by what source), giving details on
 charging level, voltage, temperature and more. It also lets you know what type
 of battery your device is using, e.g. [Li-ion](https://en.wikipedia.org/wiki/Li-ion
 "Wikipedia: Lithium-ion battery") or [Li-Po](https://en.wikipedia.org/wiki/Li-Po
-"Wikipedia: Lithium polymer battery").
+"Wikipedia: Lithium polymer battery"). Several details are [listed
+here](https://www.programmersought.com/article/38291685131/). Picking some core
+values which might need explanation (I couldn't find details on all, though):
+
+* Max charging current: Highest current for charging (µA)
+* Max charging voltage: Highest voltage for charging (µV)
+* Charge counter: Battery capacity in microampere-hours (µAh)  
+  (This is an equivalent to battery level if you know your battery's capacity,
+  but has a finer resolution (~1 min in comparison to ~10 min for battery level))
+* scale: maximum value for „level“ (usually „100“ with level in percent)
+* voltage: current voltage in mV (not µV this time)
+* temperature: don't get shocked, it's just centi-degrees (tenths of °C)
 
 **Radio Status** gives you details on your device's mobile radio. The
 [Baseband Processor](https://en.wikipedia.org/wiki/Baseband_processor) is what
