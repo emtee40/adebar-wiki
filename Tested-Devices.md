@@ -11,6 +11,7 @@ Device                  | Android<br>version | Date    | Comment
 ----------------------- | --------------: | ------- | ---------------------
 BQ Aquaris X5 Plus      |       7.1.1 | 2018-09 | stock ROM (Izzy); no partition info w/o root
 BQ Aquaris X5 Plus      |       7.1.2 | 2018-10 | LineageOS 14.1 (Izzy)
+Fairphone 2             |      10.0.x | 2021-04 | LineageOS 17.1, not rooted (Izzy)
 Galaxy Note 2 (GT-N7100)|       4.4.2 | 2015-12 | stock ROM, Windows/Cygwin (Irfy)
 Huawei Nexus 6P (angler)|       6.0.x | 2015-12 | stock, rooted, Windows/Cygwin (Irfy)
 Lenovo A536             |       4.4.2 | 2015-10 | stock ROM, MTK (tukusejssirs)
@@ -28,6 +29,7 @@ Oneplus (A0001)         |       5.1.1 | 2015-11 | Cyanogenmod (inktrap)
 OnePlus 3               |       8.0.x | 2020-05 | stock OxygenOS 5.0.8, rooted (5c0tt-b0t)
 OnePlus 3               |       9.0.x | 2020-05 | OxygenOS 9.0.6, rooted (5c0tt-b0t)
 OnePlus 5T              |       9.x.x | 2020-06 | stock OxygenOS 9.0.11, rooted (5c0tt-b0t)
+Samsung A40             |      11.0.x | 2020-04 | (Nemris)
 Samsung Galaxy Ace 2    |       4.1.2 | 2015-10 | stock, not rooted (Izzy)
 Samsung Galaxy S5       |       7.1.2 | 2020-05 | AOSP/CAF, rooted (5c0tt-b0t)
 Samsung Galaxy S7 Edge  |       6.0.1 | 2016-07 | Adebar > 1.6.0 needed (Izzy)
