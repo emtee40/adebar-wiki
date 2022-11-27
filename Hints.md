@@ -108,6 +108,18 @@ keycode sequences. Some used by me or reported by other users are listed here.
 If your device is not named, try the codes until you find one that works. If
 none worked, but you figured out a new sequence, please report back!
 
+If you want to figure out your own valid keycode sequence, you can find a full
+list of keyevents in the
+[developer documentation](https://developer.android.com/reference/android/view/KeyEvent).
+Examples from below table:
+
+* ` 4`: SYM meta key
+* `20`: dpad down
+* `22`: dpad right
+* `23`: dpad center (aka „OK“)
+* `61`: tab
+* `66`: enter
+
 Device                  | MK_AUTOCONFIRM_SEQUENCE | .._SEQUENCE_2 | Comment
 ----------------------- | ----------------------: | ------------- | ---------------------
 Default                 | `(22 23)`               |               | works on many devices
