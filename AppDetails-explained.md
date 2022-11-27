@@ -1,5 +1,22 @@
 ## App Details explained
-### Organization
+### Standard Apps
+This block lists a group of „app types“ expected to be present on any Android
+device – such as Calendar, Contacts, Homescreen etc. For each of these
+categories, there's usually an app pre-installed with the shipped device/ROM.
+Should there be multiple apps installed to perform a given action (e.g. multiple
+camera apps are not that unusual), one is usually prompted at each corresponding
+action to choose an app – to be used always, or just now. Does one choose
+„always“, the app becomes standard and the user is not asked again (until this
+standard is reset in settings), otherwise no standard app is set and the user
+asked again next time.
+
+In this block, an asterisk (`*`) indicates no standard app was found here, but
+the app shown was the first one listed for the action – which usually means it
+was the last one used.
+
+
+### Installed Apps
+#### Organization
 First level of organization is pretty clear: System Apps and User Apps are
 listed in separate files (by default, `sysApps.md` and `userApps.md`). Inside
 each of these files, apps are grouped by the source they came from. At least
@@ -34,7 +51,7 @@ well as the ones to restore them in case you want them back (`adb shell pm
 install-existing <packageName>`).
 
 
-### Per-App Details
+#### Per-App Details
 Looking at the app details in either `sysApps.md` or `userApps.md`, not all
 fields are self-explaining – at least if you're not a developer. So I'll try to
 shed some light here, going by an example entry and field-by-field, giving you
