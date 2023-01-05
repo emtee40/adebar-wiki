@@ -5,6 +5,8 @@ can add your devices e.g. in [issue #7](https://codeberg.org/izzy/Adebar/issues/
 where you might also find additional details on the one or other device listed
 below from its original report.
 
+Note: until now I've not seen Adebar failing any device. From time to time there is one
+missing a single detail, which then usually is fixed easily.
 
 ### Smartphones
 Device                  | Android<br>version | Date    | Comment
@@ -12,6 +14,7 @@ Device                  | Android<br>version | Date    | Comment
 BQ Aquaris X5 Plus      |       7.1.1 | 2018-09 | stock ROM (Izzy); no partition info w/o root
 BQ Aquaris X5 Plus      |       7.1.2 | 2018-10 | LineageOS 14.1 (Izzy)
 Fairphone 2             |      10.0.x | 2021-04 | LineageOS 17.1, not rooted (Izzy)
+Fairphone 2             |      11.0.x | 2022-10 | LineageOS 18.1, rooted (Izzy)
 Galaxy Note 2 (GT-N7100)|       4.4.2 | 2015-12 | stock ROM, Windows/Cygwin (Irfy)
 Huawei Nexus 6P (angler)|       6.0.x | 2015-12 | stock, rooted, Windows/Cygwin (Irfy)
 Lenovo A536             |       4.4.2 | 2015-10 | stock ROM, MTK (tukusejssirs)
@@ -31,9 +34,11 @@ OnePlus 3               |       9.0.x | 2020-05 | OxygenOS 9.0.6, rooted (5c0tt-
 OnePlus 5T              |       9.x.x | 2020-06 | stock OxygenOS 9.0.11, rooted (5c0tt-b0t)
 Samsung A40             |      11.0.x | 2021-04 | (Nemris)
 Samsung Galaxy Ace 2    |       4.1.2 | 2015-10 | stock, not rooted (Izzy)
+Samsung Galaxy S20 FE   |      11.0.x | 2021-11 | stock, not rooted (Izzy)
 Samsung Galaxy S5       |       7.1.2 | 2020-05 | AOSP/CAF, rooted (5c0tt-b0t)
 Samsung Galaxy S7 Edge  |       6.0.1 | 2016-07 | Adebar > 1.6.0 needed (Izzy)
 Samsung Galaxy S7 Edge  |       8.0.0 | 2020-01 | stock, not rooted; Adebar 1.9.0 (Izzy)
+SHIFT6mq                |      10.0.x | 2022-11 | stock (ShiftOS-G, ShiftOS-L), rooted/not-rooted, Adebar 2.3.x (Izzy)
 Sony Xperia X10i        |       2.3.3 | 2020-08 | stock; Adebar 2.0.3 (ashimokawa)
 Sony Xperia XZ1 Compact |       9.x.x | 2019-03 | stock, not rooted; Adebar > 1.8.0 (De4DMaN)
 Sony Xperia Z Ultra (togari) |  5.1.1 | 2015-12 | Cyanogenmod 12.1 (20151204) (chaotix)
@@ -43,6 +48,7 @@ Wileyfox Swift          |       6.0.1 | 2018-05 | CyanogenOS 13.1 (Izzy)
 Wileyfox Swift          |       7.1.1 | 2017-05 | WileyfoxOS (n0tnull)
 Wileyfox Swift          |       7.x.x | 2017-11 | LineageOS 14 (cweiske)
 Wileyfox Swift          |       8.1.0 | 2019-07 | µG LineageOS 15 (Izzy)
+Wileyfox Swift          |      10.0.x | 2023-01 | µG LineageOS 17 (Izzy)
 Xiaomi Mi4C             |       6.0.1 | 2017-01 | OmniROM 6.0.1; Cygwin (JimboJoe)
 Xiaomi Mi8              |       8.1.0 | 2018-10 | Xiaomi MIUI 10 (Catfriend1); Git Bash on Win10
 Xiaomi Redmi3 Pro       |       5.1.1 | 2018-01 | CM 12.1 (walkjivefly); no AUTO_CONFIRM
