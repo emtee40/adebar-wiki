@@ -48,6 +48,21 @@ is to add a line to the corresponding config file: `alias adb='/path/to/adb'`,
 to point to the corresponding binary for each device.
 
 
+## Root backup succeeded, but restore seems incomplete
+For a while now there are scripts in the `tools/` directory allowing you to backup
+your apps with root powers; starting with *Adebar* v2.3.2 these can even be used
+with the generated scripts by setting `ROOT_BACKUP=1` in your config. Some apps
+seem [not to restore fine](https://codeberg.org/izzy/Adebar/issues/63). We were not
+able to pin-point the underlying issue, but one reason could be apps using Android's
+Keystore, which the backups do not (and to my knowledge, cannot reliably) cover.
+This is e.g. one of the reasons given by Seedvault why the `ALLOW_BACKUP` is honored
+(it's unclear whether restore would succeed).
+
+Speaking about incomplete: Not everything is currently covered anyway. APK and data
+are covered, but e.g. Keystore, OBB ad Exras like granted permissions or battery
+optimization settings are not.
+
+
 ## Backup of each app has to be confirmed separately
 Yes. That's a security measure so no stranger could simply connect an USB cable
 to your device and steal your data. But there's a way to work around this
