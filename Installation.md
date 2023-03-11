@@ -15,6 +15,7 @@ There are multiple ways to get hold of a copy of the code:
 * you can clone the Git repository (see the [main page](https://codeberg.org/izzy/Adebar "Adebar at Codeberg"))
 * you can download the repository code as `.zip` file (from the same place)
 * you can download the latest release from the [IzzyOnDroid Download Area](http://android.izzysoft.de/downloads "IzzyOnDroid Download Area")
+* if you're using ArchLinux, you can directly install *Adebar* [from AUR](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=adebar) (and skip below installation instructions)
 
 The `master` branch here at Codeberg should always reflect the latest „stable“ code. The `devel` branch might hold newer stuff which was not yet much tested. The choice is entirely yours :)
 
