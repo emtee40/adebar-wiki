@@ -41,6 +41,8 @@
       at the time of generating your report and scripts. This will also hold the
       commands to uninstall any bloatware you had uninstalled at that time via
       `adb shell pm uninstall --user 0 <packageName>` (Adebar > v2.0.0).
+    * `lst2json.php`: convert the `data/*.lst` files (SMS etc) to JSON for further
+      processing
     * `partBackup`: script to backup all the partitions of your device
     * `sysbackup`: script to backup all data of your system apps, including shared
       storage (data from the SD cards)
@@ -124,4 +126,4 @@ you can simply open them with the web browser of your choice. Some example
 documentations can be [found here](https://pages.codeberg.org/izzy/adebar/).
 
 [HTML]: https://en.wikipedia.org/wiki/HTML "Wikipedia: HTML"
-[Markdown]: http://en.wikipedia.org/wiki/Markdown "Wikipedia: Markdown"
+[Markdown]: https://en.wikipedia.org/wiki/Markdown "Wikipedia: Markdown"

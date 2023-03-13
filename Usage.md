@@ -17,8 +17,10 @@ devices, one Motorola and one HTC. For each of them, you wish different settings
 to be applied. So for a „shortcut“, you name the first „moto“ and the second „htc“.
 For easier handling, you could do the following:
 
-* create the `config` directory below the directory `adebar-cli` resides in
-* copy `doc/config.sample` to `config/moto` resp. `config/htc`
+* create `$HOME/.config/adebar` (Adebar 2.4.0+) or, alternatively, create the
+  `config` directory below the directory `adebar-cli` resides in
+* copy `doc/config.sample` to the config dir using a name matching your device
+  (as mentioned above), here e.g. `config/moto` or `config/htc`
 * adjust the two files to your needs
 * call `adebar-cli` with...
   * `./adebar-cli moto` to create the scripts in `$STORAGE_BASE/moto`
@@ -40,6 +42,9 @@ There are two exceptions to the above mentioned syntax:
 
 
 ## Exit codes
+Exit codes are defined at the top of `adebar-cli` for easier reference. By default
+those are:
+
 * 1: Syntax error (missing or wrong arguments when calling the script)
 * 2: No device found
 * 3: Multiple devices found, but no SERIAL specified in config

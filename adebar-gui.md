@@ -13,7 +13,7 @@ send a pull-request „upstream“ (to me, that is).
 
 ## Suggestion for implementing a GUI
 Browsing the code, you might have seen the main script is not simply called
-`adebar`, but `adebar-cli`. That was done incidentally, with a GUI pendant in
+`adebar`, but `adebar-cli`. That was done on purpose, with a GUI pendant in
 mind – which should be named `adebar-gui`.
 
 Interfacing with the CLI script shouldn't be a big deal. My "basic ideas" on
@@ -28,7 +28,8 @@ how the GUI could work are:
   a „temporary file“), additionally to the options described the GUI defines
   the `OUTDIR` variable with what the user wanted it to be. So when „sourcing“
   the config file, `adebar-cli` would be updated accordingly.
-* After `adebar-cli` is done, the „temporary config“ (if any) should be removed.
+* After `adebar-cli` is done, the „temporary config“ (if any) should be removed,
+  unless the user requests it to be stored.
 
 The GUI could capture STDOUT and STDERR from the CLI script to provide the user
 with feedback.

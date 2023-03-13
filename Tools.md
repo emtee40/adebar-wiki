@@ -15,7 +15,12 @@ be listed here:
 * `getapk`: Grab APK files from your device via ADB. Which ones, depends on the
   parameter you pass to it: a single APK when given a package name, all user
   apps, all system apps – or even all apps. Call without parameters for details.
+* `lst2json.php`: convert the `data/*.lst` files (data obrained from the device,
+  e.g. SMS) to [JSON](https://en.wikipedia.org/wiki/JSON) for further processing.
 * `mk_dummy`: Script to create [[Dummy-Devices]].
+* `root_appbackup.sh`: used to create backups with root powers – inclusing apps
+  which `adb backup` was unable to get.
+* `root_apprestore.sh`: restore the backups created with `root_appbackup.sh`
 * `ssnap`: a (serial) screenshot snapper. It will put your device into demo mode,
   set the clock to the specified value while hiding all your „real notifications“,
   optionally starting an app if you specified its package name, and then perform

@@ -8,10 +8,11 @@ straight away. Come back here if you feel the need to fine-tune things.
 ## Where does *Adebar* check for configuration files?
 When running, *Adebar* first sets up „default values“, and then checks for an existing config file:
 
-* if `config/` is a directory, and contains a file with the same name
-  as specified by the first command-line parameter, this is used. This
-  allows for device-specific config files if you have more than one
-  device.
+* if `$HOME/.config/adebar` exists, is a directory, and contains a file with the
+  same name as specified by the first command-line parameter, this is used. This
+  allows for device-specific config files if you have more than one device.
+* else, if `config/` is a directory and contains a file with the
+  same name as specified by the first command-line parameter, this is used.
 * otherwise, if `config/` is a directory, and contains a file named
   `default`, this will be used. You might want to have that for e.g.
   "guest devices" or as a default for possible „new ones“
@@ -45,6 +46,7 @@ A short information for each setting is contained in the example config file, wh
   in `${STORAGE_PATH}/${OUTDIR}/docs`
 * `CONFDIR`: Similar for pulled config files (`conf/`). Default is "conf", which has
   the device's config files placed in `${STORAGE_PATH}/${OUTDIR}/conf`.
+* `DATADIR`: Here the `*.lst` files of extracted data (SMS etc) will be placed.
 * `CACHEDIR`: In the cache directory, Adebar stores data between runs –
   so it does not have to re-evaluate them. This includes e.g. names of apps
   in the `appnames` sub-directory. Leave it empty (default) to disable caching.
@@ -158,8 +160,10 @@ and `1` stands for „on”. By default, all features are enabled (i.e. set to `
   Set to `1` to enable it.
 * `MK_XPRIVACY_PULL`: whether to pull XPrivacy's databases. Disabled (`0`) by
   default as it requires root; set to `1` to enable it.
-* `PULL_SETTINGS`: pull settings/configs from the device (currently just
-  `wpa_supplicant.conf`, but there might be more in the future)
+* `PULL_DATA`: extract data (SMS, CellBroadcast messages,  CallLogs, etc) from
+  the device and place them into `data/`. Enabled (`1`) by default.
+* `PULL_SETTINGS`: pull settings/configs from the device (`build.prop`, `gps.conf`,
+  `softap.conf`, `wpa_supplicant.conf`/`WifiConfigStore.xml`, `packages.xml` …)
 * `MK_TIBU`: create the script to pull stuff from the TiBu web server.
   Even if set to `1`, this will be disabled if you didn't set a `DEVICE_IP`
   (see above in „Settings for Titanium Backup“).
@@ -267,6 +271,10 @@ details. Apps are grouped by installers in [[userApps.md|example userApps.md]].
 * `APPNAME_CMD`: Similar to `POSTRUN_CMD` a command to retrieve app names.
   Must return a string only (the app name or, if it fails to retrieve it,
   the package name as passed to it). Only parameter is the package name.
+* `ROOT_BACKUP`: use root powers for backup. This is turned off (`0`) by
+  default. If set to `1`, instead of `adb backup`/`adb restore`, *Adebar*
+  will place `tools/root_appbackup.sh` and `tools/root_apprestore.sh` in
+  the generated scripts.
 * `ROOT_COMPAT`: Root compatibility mode. By default turned off (`=0`).
   Turn this on (`=1`) when your device is rooted, but the ADB daemon (`adbd`)
   is not running in root mode (i.e. your corresponding device property is
@@ -346,5 +354,5 @@ device does not fall into that category, but is rooted, you can [find the
 binary here][1] together with instructions on how to install it on your rooted
 device.
 
-[1]: http://android.izzysoft.de/downloads "IzzyOnDroid: Android Downloads"
+[1]: https://android.izzysoft.de/downloads "IzzyOnDroid: Android Downloads"
 [2]: https://gist.github.com/ctrl-freak/9abb5aea0d89d7bd9df6a3d0ac08b73c "List of keycodes"

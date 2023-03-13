@@ -1,8 +1,8 @@
 ## Requirements
-* **ADB** installed (and configured for your device) on your computer. This can either be the [complete Android SDK](https://developer.android.com/sdk/index.html "Android SDK at Android Developers"), or a [minimal installation of ADB](http://android.stackexchange.com/q/42474/16575 "Android.SE: Is there a minimal installation of ADB?").
+* **ADB** installed (and configured for your device) on your computer. This can either be the [complete Android SDK](https://developer.android.com/sdk/index.html "Android SDK at Android Developers"), or a [minimal installation of ADB](https://android.stackexchange.com/q/42474/16575 "Android.SE: Is there a minimal installation of ADB?").
 * **Bash** (version 4 or higher). As this is a very common shell environment, it's available by default on most Linux distributions.
     * on Linux, this should ship per default
-    * on Windows, you can use [Cygwin](https://www.cygwin.com/) (confirmed); [MobaXterm](http://mobaxterm.mobatek.net/) should do as well (no reports yet; includes Cygwin and is easier to install, even offers a portable version)
+    * on Windows, you can use [Cygwin](https://www.cygwin.com/) (confirmed); [MobaXterm](https://mobaxterm.mobatek.net/) should do as well (no reports yet; includes Cygwin and is easier to install, even offers a portable version)
     * MacOS ships with an ancient version of Bash (3.5). You can use [Macports](https://www.macports.org/) to install a newer version. This doesn't overwrite the current version, just installs the newer version in a different location. Once it's installed, Adebar will use it by default, thanks to d5ve's contribution.
 * **Android 4.0+**: As the `adb backup` and `adb restore` commands have not been present before Android 4.0, *Adebar* will not be of much use with devices running older versions – except for creating a „device documentation“, which turned out to work even with Android 2.1.
 
@@ -14,7 +14,7 @@ There are multiple ways to get hold of a copy of the code:
 
 * you can clone the Git repository (see the [main page](https://codeberg.org/izzy/Adebar "Adebar at Codeberg"))
 * you can download the repository code as `.zip` file (from the same place)
-* you can download the latest release from the [IzzyOnDroid Download Area](http://android.izzysoft.de/downloads "IzzyOnDroid Download Area")
+* you can download the latest release from the [IzzyOnDroid Download Area](https://android.izzysoft.de/downloads "IzzyOnDroid Download Area")
 * if you're using ArchLinux, you can directly install *Adebar* [from AUR](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=adebar) (and skip below installation instructions)
 
 The `master` branch here at Codeberg should always reflect the latest „stable“ code. The `devel` branch might hold newer stuff which was not yet much tested. The choice is entirely yours :)

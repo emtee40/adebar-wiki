@@ -40,12 +40,18 @@ on your PC.
 In the best case, simply updating the ADB binaries on your computer should solve
 this – but there are cases reported where one must *downgrade* instead (see
 [issue #7](https://github.com/IzzySoft/Adebar/issues/7#issuecomment-161903472) and,
-in more detail, [Android.SE](http://android.stackexchange.com/q/83080/16575)).
+in more detail, [Android.SE](https://android.stackexchange.com/q/83080/16575)).
 
 If you're in the trouble having multiple devices and each requires its own ADB
 version (rare case), a work-around (so each one gets its correct `adb` binary)
 is to add a line to the corresponding config file: `alias adb='/path/to/adb'`,
 to point to the corresponding binary for each device.
+
+Now, in the *worst* case: `adb backup` was deprecated a while ago. Since Android
+12/13 it will no longer include data except of apps which were compiled for
+debug. Without root, you're then out of luck for this with *Adebar* – with root
+powers, *Adebar* offers a different approach for backup/restore (see `ROOT_BACKUP`
+on the [[Configuration]] page – and read the section below).
 
 
 ## Root backup succeeded, but restore seems incomplete
@@ -86,7 +92,7 @@ On some devices (all 4.1+ devices with the ADB daemon running in non-root mode?)
 This applies to some other files as well, especially those with sensitive details
 (e.g. `wpa_supplicant.conf`). If you want to pull them, you'll have to root your
 device (a must) and make sure either the ADB daemon runs in root-mode (which can
-e.g. be achieved using chainfire's [adbd Insecure](http://play.google.com/store/apps/details?id=eu.chainfire.adbd))
+e.g. be achieved using chainfire's [adbd Insecure](https://play.google.com/store/apps/details?id=eu.chainfire.adbd))
 or you've set `ROOT_COMPAT=1` in your config.
 
 
@@ -143,10 +149,10 @@ Examples of possibilities are:
   (works on some devices – but not on all, even if the file exists)
 * integrate it into an init script if your device and kernel support it
   (those devices usually have a `/system/etc/init.d` directory); also see:
-  [How can I run a script on boot?](http://android.stackexchange.com/q/6558/16575)
-  and [How to run a script on boot](http://android.stackexchange.com/a/115595/16575)
+  [How can I run a script on boot?](https://android.stackexchange.com/q/6558/16575)
+  and [How to run a script on boot](https://android.stackexchange.com/a/115595/16575)
   (the latter is about how to add `init.d` support to your device if it's not there)
-* according to [this SO post](http://stackoverflow.com/a/29389115/2533433) it might
+* according to [this SO post](https://stackoverflow.com/a/29389115/2533433) it might
   work to simply issue a `setprop persist.usb.serialno MyUniqueSerial` as root,
   and then reboot the device.
 * run a script at boot time by other means, e.g. utilizing [Script
@@ -165,4 +171,4 @@ case for Android Go up to 8.1 at least). Full details hence are not available
 before Android 8 (Oreo) – again not the fault of *Adebar.*
 
 
-[1]: http://android.izzysoft.de/downloads "IzzyOnDroid: Android Downloads"
+[1]: https://android.izzysoft.de/downloads "IzzyOnDroid: Android Downloads"
