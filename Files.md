@@ -19,6 +19,8 @@
 * `tools/ab2tar`: tiny shell script to convert ADB Backups to `.tar.gz`. Requires
    openssl and zlib.
 * `tools/getapk`: shell script to extract specific|all|user|system apps
+* `lst2json.php`: convert the `data/*.lst` files (SMS etc) to JSON for further
+   processing
 * `tools/mkdummy`: to create a "dummy device" from your real one (mainly intended
   for debug purposes: if you need assistance, you could zip/tar that after having
   it sanitized and attach it to an issue, or send it by other means)
@@ -41,8 +43,6 @@
       at the time of generating your report and scripts. This will also hold the
       commands to uninstall any bloatware you had uninstalled at that time via
       `adb shell pm uninstall --user 0 <packageName>` (Adebar > v2.0.0).
-    * `lst2json.php`: convert the `data/*.lst` files (SMS etc) to JSON for further
-      processing
     * `partBackup`: script to backup all the partitions of your device
     * `sysbackup`: script to backup all data of your system apps, including shared
       storage (data from the SD cards)
