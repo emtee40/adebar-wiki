@@ -21,7 +21,7 @@ The `master` branch here at Codeberg should always reflect the latest â€žstableâ
 
 ### Via the tools of your distribution
 * if you're using ArchLinux, you can directly install *Adebar* [from AUR](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=adebar)
-* if you're using Gentoo, you can install Adebar using `emerge adebar` from the [official ebuild repository](https://packages.gentoo.org/packages/app-mobilephone/adebar)
+* if you're using Gentoo, you can install Adebar from the [official ebuild repository](https://packages.gentoo.org/packages/app-mobilephone/adebar) using `emerge adebar`
 
 When installed this way, you can skip below installation instructions: *Adebar* is already completely installed, and you can head over to perform its [[Configuration]].
 
