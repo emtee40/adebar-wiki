@@ -12,15 +12,21 @@
 ## Obtaining *Adebar*
 There are multiple ways to get hold of a copy of the code:
 
+### Sources for manual installation
 * you can clone the Git repository (see the [main page](https://codeberg.org/izzy/Adebar "Adebar at Codeberg"))
 * you can download the repository code as `.zip` file (from the same place)
 * you can download the latest release from the [IzzyOnDroid Download Area](https://android.izzysoft.de/downloads "IzzyOnDroid Download Area")
-* if you're using ArchLinux, you can directly install *Adebar* [from AUR](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=adebar) (and skip below installation instructions)
 
 The `master` branch here at Codeberg should always reflect the latest „stable“ code. The `devel` branch might hold newer stuff which was not yet much tested. The choice is entirely yours :)
 
+### Via the tools of your distribution
+* if you're using ArchLinux, you can directly install *Adebar* [from AUR](https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=adebar)
+* if you're using Gentoo, you can install Adebar using `emerge adebar` from the [official ebuild repository](https://packages.gentoo.org/packages/app-mobilephone/adebar)
 
-## Installation
+When installed this way, you can skip below installation instructions: *Adebar* is already completely installed, and you can head over to perform its [[Configuration]].
+
+
+## Installation from source
 Just unpack the contents of the downloaded `.zip`/`.tar.gz` file into an empty directory of your chosing, no special installation required. If you cloned the repo, you can run `adebar-cli` directly from within your clone, and also create your `config/` and `cache/` directories there (these are contained in the `.gitignore` file, and thus should cause no conflicts).
 
 **Note:** when cloning the repo on Windows (native) for use in Cygwin, take care to set `autocrlf = false` before cloning, or the resulting files are unusable ([see here](https://codeberg.org/izzy/Adebar/issues/7#issuecomment-245275208) for details).
